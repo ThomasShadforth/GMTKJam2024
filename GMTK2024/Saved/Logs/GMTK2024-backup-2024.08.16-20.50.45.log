@@ -1,0 +1,1517 @@
+﻿Log file open, 08/16/24 20:20:59
+LogInit: Display: Running engine for game: GMTK2024
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.343731
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: AMD Radeon RX 5700 XT
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -AUTH_LOGIN=unused -AUTH_PASSWORD=69b8e2386dd747a8b0b2d5cc12bc6851 -AUTH_TYPE=exchangecode -epicapp=UE_4.25 -epicenv=Prod -EpicPortal -epicusername=Dstails -epicuserid=56353b415bb7499ca132fc0c84145c08 -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: D:/Program Files (x86)/Epic Games/Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+[2024.08.16-19.20.59:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.08.16-19.20.59:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+[2024.08.16-19.20.59:827][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+[2024.08.16-19.20.59:835][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.08.16-19.20.59:835][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2024.08.16-19.20.59:836][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2024.08.16-19.20.59:837][  0]LogInit: Selected Device Profile: [Windows]
+[2024.08.16-19.20.59:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.08.16-19.20.59:837][  0]LogHAL: Display: Platform has ~ 24 GB [25694081024 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.08.16-19.20.59:837][  0]LogInit: Going up to parent DeviceProfile []
+[2024.08.16-19.20.59:837][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.08.16-19.20.59:837][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:837][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Scalability.ini]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2024.08.16-19.20.59:838][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.08.16-19.20.59:839][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.08.16-19.20.59:839][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.08.16-19.20.59:839][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.08.16-19.20.59:839][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Config/Windows/Engine.ini]
+[2024.08.16-19.20.59:839][  0]LogInit: Computer: DESKTOP-V7FN6FK
+[2024.08.16-19.20.59:839][  0]LogInit: User: 12sha
+[2024.08.16-19.20.59:839][  0]LogInit: CPU Page size=4096, Cores=8
+[2024.08.16-19.20.59:839][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.08.16-19.20.59:839][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2024.08.16-19.20.59:839][  0]LogMemory: Platform Memory Stats for Windows
+[2024.08.16-19.20.59:839][  0]LogMemory: Process Physical Memory: 116.79 MB used, 116.80 MB peak
+[2024.08.16-19.20.59:839][  0]LogMemory: Process Virtual Memory: 98.23 MB used, 98.23 MB peak
+[2024.08.16-19.20.59:839][  0]LogMemory: Physical Memory: 14774.42 MB used,  9729.37 MB free, 24503.79 MB total
+[2024.08.16-19.20.59:839][  0]LogMemory: Virtual Memory: 5187.93 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2024.08.16-19.20.59:847][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.08.16-19.20.59:885][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.08.16-19.20.59:886][  0]LogInit: Using OS detected language (en-GB).
+[2024.08.16-19.20.59:886][  0]LogInit: Using OS detected locale (en-GB).
+[2024.08.16-19.20.59:889][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2024.08.16-19.21.00:149][  0]LogInit: Setting process to per monitor DPI aware
+[2024.08.16-19.21.00:210][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.08.16-19.21.00:210][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.08.16-19.21.00:510][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.08.16-19.21.00:510][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.08.16-19.21.00:510][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.08.16-19.21.00:510][  0]LogD3D11RHI: D3D11 adapters:
+[2024.08.16-19.21.00:614][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700 XT' (Feature Level 11_0)
+[2024.08.16-19.21.00:614][  0]LogD3D11RHI:       8151/0/12251 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2024.08.16-19.21.00:618][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.08.16-19.21.00:618][  0]LogD3D11RHI:       0/0/12251 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.08.16-19.21.00:618][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.08.16-19.21.00:636][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.08.16-19.21.00:636][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2024.08.16-19.21.00:636][  0]LogWindows: EnumDisplayDevices:
+[2024.08.16-19.21.00:637][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:0 D:1)
+[2024.08.16-19.21.00:637][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:1 D:1)
+[2024.08.16-19.21.00:637][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2024.08.16-19.21.00:638][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2024.08.16-19.21.00:638][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2024.08.16-19.21.00:639][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2024.08.16-19.21.00:639][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2024.08.16-19.21.00:639][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2024.08.16-19.21.00:639][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700 XT
+[2024.08.16-19.21.00:639][  0]LogD3D11RHI:   Driver Version: AMD Software: Adrenalin Edition 24.5.1 (internal:31.0.24033.1003, unified:31.0.24033.1003)
+[2024.08.16-19.21.00:639][  0]LogD3D11RHI:      Driver Date: 5-8-2024
+[2024.08.16-19.21.00:639][  0]LogRHI: Texture pool is 5168 MB (70% of 7383 MB)
+[2024.08.16-19.21.00:737][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.08.16-19.21.00:737][  0]LogD3D11RHI: Async texture creation enabled
+[2024.08.16-19.21.00:737][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.08.16-19.21.00:753][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2024.08.16-19.21.01:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2024.08.16-19.21.01:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.08.16-19.21.01:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.08.16-19.21.01:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.08.16-19.21.01:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.08.16-19.21.01:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.08.16-19.21.01:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2024.08.16-19.21.01:543][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.08.16-19.21.01:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.08.16-19.21.01:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2024.08.16-19.21.01:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2024.08.16-19.21.01:590][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2024.08.16-19.21.01:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2024.08.16-19.21.01:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2024.08.16-19.21.01:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.08.16-19.21.01:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.08.16-19.21.01:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2024.08.16-19.21.01:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.08.16-19.21.01:684][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.08.16-19.21.01:695][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.08.16-19.21.01:695][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.08.16-19.21.01:704][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.08.16-19.21.01:779][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Intermediate/Shaders/WorkingDirectory/16040/).
+[2024.08.16-19.21.01:780][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/12sha/AppData/Local/Temp/UnrealShaderWorkingDir/7C968D3F496FD2A60E02618AEC028FD8/'.
+[2024.08.16-19.21.01:780][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.08.16-19.21.01:780][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.08.16-19.21.01:780][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.08.16-19.21.02:513][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.08.16-19.21.02:567][  0]LogDerivedDataCache: Loaded boot cache 0.05s 77MB C:/Users/12sha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2024.08.16-19.21.02:567][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/12sha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2024.08.16-19.21.02:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.08.16-19.21.02:567][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.08.16-19.21.02:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.08.16-19.21.02:567][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.08.16-19.21.02:578][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.08.16-19.21.02:578][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.08.16-19.21.02:578][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2024.08.16-19.21.02:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/12sha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.08.16-19.21.02:580][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.08.16-19.21.02:580][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.08.16-19.21.02:628][  0]LogSlate: Using FreeType 2.10.0
+[2024.08.16-19.21.02:629][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.08.16-19.21.02:655][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2024.08.16-19.21.02:894][  0]LogInit: Selected Device Profile: [Windows]
+[2024.08.16-19.21.03:057][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.08.16-19.21.03:057][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2024.08.16-19.21.03:057][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.08.16-19.21.03:057][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2024.08.16-19.21.03:057][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.08.16-19.21.03:076][  0]LogNetVersion: GMTK2024 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1982070914)
+[2024.08.16-19.21.03:530][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001891495C340), frame # 0
+[2024.08.16-19.21.03:530][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018914896AC0), frame # 0
+[2024.08.16-19.21.03:531][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018914920A00), frame # 0
+[2024.08.16-19.21.03:847][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.310041 seconds
+[2024.08.16-19.21.03:855][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2024.08.16-19.21.03:855][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2024.08.16-19.21.03:855][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.08.16-19.21.04:317][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.08.16-19.21.04:357][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.08.16-19.21.07:792][  0]LogLinker: Warning: Failed to load '/Game/2DSideScrollerBP/2DSideScrollerOverview': Can't find file.
+[2024.08.16-19.21.07:792][  0]LogLinker: Warning: Failed to load '/Game/2DSideScrollerBP/2DSideScrollerOverview': Can't find file.
+[2024.08.16-19.21.07:792][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2024.08.16-19.21.07:859][  0]SourceControl: Source control is disabled
+[2024.08.16-19.21.07:859][  0]SourceControl: Source control is disabled
+[2024.08.16-19.21.07:863][  0]SourceControl: Source control is disabled
+[2024.08.16-19.21.07:867][  0]SourceControl: Source control is disabled
+[2024.08.16-19.21.07:876][  0]SourceControl: Source control is disabled
+[2024.08.16-19.21.08:139][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.08.16-19.21.08:162][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.08.16-19.21.08:162][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.08.16-19.21.08:219][  0]LogOcInput: OculusInput pre-init called
+[2024.08.16-19.21.08:321][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2024.08.16-19.21.08:321][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2024.08.16-19.21.08:411][  0]LogEngine: Initializing Engine...
+[2024.08.16-19.21.08:458][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.08.16-19.21.08:471][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2024.08.16-19.21.08:472][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.08.16-19.21.08:634][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.08.16-19.21.08:642][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.08.16-19.21.08:642][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001891B800600), frame # 0
+[2024.08.16-19.21.08:642][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001891C797B00), frame # 0
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.16-19.21.08:647][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.16-19.21.08:647][  0]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.16-19.21.08:647][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.16-19.21.08:663][  0]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.16-19.21.08:663][  0]LogAudioMixer: Display: 1: FrontRight
+[2024.08.16-19.21.08:693][  0]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.08.16-19.21.08:694][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.16-19.21.08:696][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.16-19.21.08:696][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.16-19.21.08:697][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.16-19.21.08:698][  0]LogInit: FAudioDevice initialized.
+[2024.08.16-19.21.08:698][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.08.16-19.21.08:786][  0]LogDerivedDataCache: Saved boot cache 0.09s 79MB C:/Users/12sha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2024.08.16-19.21.08:790][  0]LogInit: Texture streaming: Enabled
+[2024.08.16-19.21.08:807][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.08.16-19.21.08:807][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2024.08.16-19.21.08:808][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2024.08.16-19.21.08:860][  0]LogInit: Transaction tracking system initialized
+[2024.08.16-19.21.08:887][  0]BlueprintLog: New page: Editor Load
+[2024.08.16-19.21.09:243][  0]LocalizationService: Localization service is disabled
+[2024.08.16-19.21.09:635][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.08.16-19.21.09:635][  0]LogCook: Display: Mobile HDR setting 1
+[2024.08.16-19.21.09:643][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/' took 0.00s
+[2024.08.16-19.21.09:956][  0]SourceControl: Source control is disabled
+[2024.08.16-19.21.09:956][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.474
+[2024.08.16-19.21.09:975][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Program Files (x86)/Epic Games/Games/UE_4.25/FeaturePacks/StarterContent.upack)
+[2024.08.16-19.21.10:007][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2024.08.16-19.21.10:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2024.08.16-19.21.10:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2024.08.16-19.21.10:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2024.08.16-19.21.10:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2024.08.16-19.21.10:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2024.08.16-19.21.10:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2024.08.16-19.21.10:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2024.08.16-19.21.10:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2024.08.16-19.21.10:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2024.08.16-19.21.10:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2024.08.16-19.21.10:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2024.08.16-19.21.10:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Collapse01.uasset"
+[2024.08.16-19.21.10:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Collapse02.uasset"
+[2024.08.16-19.21.10:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2024.08.16-19.21.10:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Explosion01.uasset"
+[2024.08.16-19.21.11:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Explosion02.uasset"
+[2024.08.16-19.21.11:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2024.08.16-19.21.11:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Fire01.uasset"
+[2024.08.16-19.21.11:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2024.08.16-19.21.11:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2024.08.16-19.21.11:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2024.08.16-19.21.11:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Light01.uasset"
+[2024.08.16-19.21.11:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2024.08.16-19.21.11:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Light02.uasset"
+[2024.08.16-19.21.11:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2024.08.16-19.21.11:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Smoke01.uasset"
+[2024.08.16-19.21.11:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2024.08.16-19.21.11:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2024.08.16-19.21.11:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2024.08.16-19.21.12:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2024.08.16-19.21.12:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2024.08.16-19.21.12:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2024.08.16-19.21.12:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2024.08.16-19.21.12:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Steam01.uasset"
+[2024.08.16-19.21.12:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2024.08.16-19.21.12:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2024.08.16-19.21.12:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2024.08.16-19.21.12:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2024.08.16-19.21.12:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2024.08.16-19.21.13:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2024.08.16-19.21.13:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2024.08.16-19.21.13:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2024.08.16-19.21.13:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2024.08.16-19.21.13:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2024.08.16-19.21.13:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2024.08.16-19.21.13:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2024.08.16-19.21.13:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2024.08.16-19.21.13:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2024.08.16-19.21.13:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2024.08.16-19.21.13:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2024.08.16-19.21.13:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2024.08.16-19.21.16:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2024.08.16-19.21.16:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2024.08.16-19.21.16:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2024.08.16-19.21.16:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Maps/Minimal_Default.umap"
+[2024.08.16-19.21.16:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2024.08.16-19.21.16:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Maps/StarterMap.umap"
+[2024.08.16-19.21.17:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2024.08.16-19.21.17:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2024.08.16-19.21.18:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2024.08.16-19.21.18:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2024.08.16-19.21.18:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2024.08.16-19.21.18:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2024.08.16-19.21.18:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2024.08.16-19.21.18:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2024.08.16-19.21.18:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2024.08.16-19.21.18:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2024.08.16-19.21.18:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2024.08.16-19.21.18:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2024.08.16-19.21.18:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2024.08.16-19.21.18:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2024.08.16-19.21.18:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2024.08.16-19.21.18:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2024.08.16-19.21.18:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2024.08.16-19.21.18:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2024.08.16-19.21.18:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Glass.uasset"
+[2024.08.16-19.21.18:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2024.08.16-19.21.18:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2024.08.16-19.21.18:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2024.08.16-19.21.18:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2024.08.16-19.21.18:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2024.08.16-19.21.18:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2024.08.16-19.21.19:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2024.08.16-19.21.19:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2024.08.16-19.21.19:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2024.08.16-19.21.19:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2024.08.16-19.21.19:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2024.08.16-19.21.19:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2024.08.16-19.21.19:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2024.08.16-19.21.19:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2024.08.16-19.21.19:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2024.08.16-19.21.19:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2024.08.16-19.21.19:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2024.08.16-19.21.19:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2024.08.16-19.21.19:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2024.08.16-19.21.19:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2024.08.16-19.21.19:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2024.08.16-19.21.19:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2024.08.16-19.21.19:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2024.08.16-19.21.19:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2024.08.16-19.21.19:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2024.08.16-19.21.19:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2024.08.16-19.21.19:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/P_Explosion.uasset"
+[2024.08.16-19.21.19:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/P_Fire.uasset"
+[2024.08.16-19.21.19:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/P_Smoke.uasset"
+[2024.08.16-19.21.19:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/P_Sparks.uasset"
+[2024.08.16-19.21.19:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2024.08.16-19.21.19:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2024.08.16-19.21.19:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2024.08.16-19.21.19:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2024.08.16-19.21.19:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2024.08.16-19.21.19:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2024.08.16-19.21.19:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2024.08.16-19.21.19:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2024.08.16-19.21.19:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2024.08.16-19.21.19:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2024.08.16-19.21.19:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2024.08.16-19.21.20:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/MaterialSphere.uasset"
+[2024.08.16-19.21.20:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Bush.uasset"
+[2024.08.16-19.21.20:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Chair.uasset"
+[2024.08.16-19.21.20:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2024.08.16-19.21.20:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Couch.uasset"
+[2024.08.16-19.21.20:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Door.uasset"
+[2024.08.16-19.21.20:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2024.08.16-19.21.20:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2024.08.16-19.21.20:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2024.08.16-19.21.20:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2024.08.16-19.21.20:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2024.08.16-19.21.20:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2024.08.16-19.21.20:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2024.08.16-19.21.20:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Rock.uasset"
+[2024.08.16-19.21.20:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Shelf.uasset"
+[2024.08.16-19.21.20:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Stairs.uasset"
+[2024.08.16-19.21.20:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_Statue.uasset"
+[2024.08.16-19.21.20:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_TableRound.uasset"
+[2024.08.16-19.21.20:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2024.08.16-19.21.20:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2024.08.16-19.21.20:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2024.08.16-19.21.20:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2024.08.16-19.21.20:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2024.08.16-19.21.20:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2024.08.16-19.21.20:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2024.08.16-19.21.20:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2024.08.16-19.21.21:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2024.08.16-19.21.21:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2024.08.16-19.21.21:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2024.08.16-19.21.21:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2024.08.16-19.21.21:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2024.08.16-19.21.21:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2024.08.16-19.21.21:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2024.08.16-19.21.21:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2024.08.16-19.21.21:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2024.08.16-19.21.21:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2024.08.16-19.21.21:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2024.08.16-19.21.21:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2024.08.16-19.21.21:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2024.08.16-19.21.21:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2024.08.16-19.21.21:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2024.08.16-19.21.21:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2024.08.16-19.21.21:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2024.08.16-19.21.21:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2024.08.16-19.21.21:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2024.08.16-19.21.21:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2024.08.16-19.21.21:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2024.08.16-19.21.21:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2024.08.16-19.21.21:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2024.08.16-19.21.21:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2024.08.16-19.21.22:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2024.08.16-19.21.22:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2024.08.16-19.21.22:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2024.08.16-19.21.22:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2024.08.16-19.21.23:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2024.08.16-19.21.23:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2024.08.16-19.21.24:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2024.08.16-19.21.24:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2024.08.16-19.21.24:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2024.08.16-19.21.24:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2024.08.16-19.21.25:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2024.08.16-19.21.25:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2024.08.16-19.21.25:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2024.08.16-19.21.25:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2024.08.16-19.21.25:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2024.08.16-19.21.25:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2024.08.16-19.21.26:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2024.08.16-19.21.26:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2024.08.16-19.21.26:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2024.08.16-19.21.26:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2024.08.16-19.21.26:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2024.08.16-19.21.26:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2024.08.16-19.21.26:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2024.08.16-19.21.26:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2024.08.16-19.21.27:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2024.08.16-19.21.27:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2024.08.16-19.21.27:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2024.08.16-19.21.27:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2024.08.16-19.21.27:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2024.08.16-19.21.28:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2024.08.16-19.21.28:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2024.08.16-19.21.28:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2024.08.16-19.21.29:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2024.08.16-19.21.29:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2024.08.16-19.21.29:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2024.08.16-19.21.29:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2024.08.16-19.21.30:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2024.08.16-19.21.30:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2024.08.16-19.21.30:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2024.08.16-19.21.30:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Door_M.uasset"
+[2024.08.16-19.21.30:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Door_N.uasset"
+[2024.08.16-19.21.30:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2024.08.16-19.21.30:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2024.08.16-19.21.31:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2024.08.16-19.21.31:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2024.08.16-19.21.31:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2024.08.16-19.21.31:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2024.08.16-19.21.31:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2024.08.16-19.21.31:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2024.08.16-19.21.31:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2024.08.16-19.21.32:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2024.08.16-19.21.32:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2024.08.16-19.21.32:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2024.08.16-19.21.33:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2024.08.16-19.21.33:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2024.08.16-19.21.33:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2024.08.16-19.21.33:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2024.08.16-19.21.33:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2024.08.16-19.21.34:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2024.08.16-19.21.34:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2024.08.16-19.21.34:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2024.08.16-19.21.34:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2024.08.16-19.21.34:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2024.08.16-19.21.34:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2024.08.16-19.21.34:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2024.08.16-19.21.35:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2024.08.16-19.21.35:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2024.08.16-19.21.35:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2024.08.16-19.21.36:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2024.08.16-19.21.36:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2024.08.16-19.21.36:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2024.08.16-19.21.36:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2024.08.16-19.21.36:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2024.08.16-19.21.37:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2024.08.16-19.21.37:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2024.08.16-19.21.37:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2024.08.16-19.21.37:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2024.08.16-19.21.37:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2024.08.16-19.21.37:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2024.08.16-19.21.38:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2024.08.16-19.21.38:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2024.08.16-19.21.38:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2024.08.16-19.21.38:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2024.08.16-19.21.38:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2024.08.16-19.21.38:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2024.08.16-19.21.38:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2024.08.16-19.21.38:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2024.08.16-19.21.38:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2024.08.16-19.21.38:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2024.08.16-19.21.38:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2024.08.16-19.21.38:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2024.08.16-19.21.38:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2024.08.16-19.21.38:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Water_M.uasset"
+[2024.08.16-19.21.38:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Water_N.uasset"
+[2024.08.16-19.21.39:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2024.08.16-19.21.39:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2024.08.16-19.21.39:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2024.08.16-19.21.39:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2024.08.16-19.21.39:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2024.08.16-19.21.39:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2024.08.16-19.21.40:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2024.08.16-19.21.40:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2024.08.16-19.21.40:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2024.08.16-19.21.40:745][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2024.08.16-19.21.41:247][  0]LogStaticMesh: Built static mesh [0.21s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.08.16-19.21.42:345][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2024.08.16-19.21.43:730][  0]LogSavePackage: Moving '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Floor_400x400B10CEAB1486CFD59D8E1E88CDFB3D361.tmp' to '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2024.08.16-19.21.43:762][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2024.08.16-19.21.43:763][  0]Cmd: MAP LOAD FILE="../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.16-19.21.43:764][  0]LightingResults: New page: Lighting Build
+[2024.08.16-19.21.43:764][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.08.16-19.21.43:764][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.16-19.21.43:764][  0]MapCheck: New page: Map Check
+[2024.08.16-19.21.43:764][  0]LightingResults: New page: Lighting Build
+[2024.08.16-19.21.43:779][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001891B800600), frame # 0
+[2024.08.16-19.21.43:779][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001891C797B00), frame # 0
+[2024.08.16-19.21.43:780][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X32)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2024.08.16-19.21.44:190][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2024.08.16-19.21.44:211][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2024.08.16-19.21.44:211][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000189370D9A00), frame # 0
+[2024.08.16-19.21.44:211][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018916978180), frame # 0
+[2024.08.16-19.21.44:993][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.16-19.21.45:011][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.16-19.21.45:015][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.16-19.21.45:015][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2024.08.16-19.21.45:015][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.252
+[2024.08.16-19.21.45:018][  0]LogUnrealEdMisc: Total Editor Startup Time, took 47.536
+[2024.08.16-19.21.46:008][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.16-19.21.46:015][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.16-19.21.46:020][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.16-19.21.46:025][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.16-19.21.46:086][  0]LogCollectionManager: Loaded 0 collections in 0.000864 seconds
+[2024.08.16-19.21.46:539][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Collections/' took 0.00s
+[2024.08.16-19.21.46:539][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/Developers/12sha/Collections/' took 0.00s
+[2024.08.16-19.21.46:539][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/Collections/' took 0.00s
+[2024.08.16-19.21.46:539][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3429 classes and 823 folders.
+[2024.08.16-19.21.46:664][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2024.08.16-19.21.46:733][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2024.08.16-19.21.46:903][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2024.08.16-19.21.48:044][  0]LogSlate: Took 0.000388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.08.16-19.21.48:046][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.08.16-19.21.48:101][  0]LogSlate: Took 0.028518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.08.16-19.21.48:719][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2024.08.16-19.21.49:246][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.16-19.21.49:309][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2024.08.16-19.21.49:309][  0]LogLoad: (Engine Initialization) Total time: 51.83 seconds
+[2024.08.16-19.21.49:309][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.08.16-19.21.49:334][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2024.08.16-19.21.49:334][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.08.16-19.21.49:477][  0]LogAssetRegistry: Asset discovery search completed in 46.8233 seconds
+[2024.08.16-19.21.49:481][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2024.08.16-19.21.49:602][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.08.16-19.22.53:865][ 49]LogSlate: Window 'Message' being destroyed
+[2024.08.16-19.22.53:870][ 49]Message dialog closed, result: Yes, title: Message, text: Are you sure you want to update the default settings?
+[2024.08.16-19.22.55:617][ 49]LogSlate: Window 'Message' being destroyed
+[2024.08.16-19.22.55:622][ 49]Message dialog closed, result: Ok, title: Message, text: The default configuration file for these settings was updated successfully. 
+
+If checked into source control this would affect other developers.
+[2024.08.16-19.23.31:084][403]LogSlate: Window 'Plugins' being destroyed
+[2024.08.16-19.23.31:089][403]LogSlate: Window 'Plugins' being destroyed
+[2024.08.16-19.23.31:306][403]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2024.08.16-19.23.38:281][121]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.16-19.23.38:336][121]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2024.08.16-19.23.38:336][121]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2024.08.16-19.23.38:383][121]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.08.16-19.23.41:505][417]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.08.16-19.23.43:338][625]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2024.08.16-19.23.43:338][625]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2024.08.16-19.23.45:817][875]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.08.16-19.25.52:391][344]LogSlate: Window 'Plugins' being destroyed
+[2024.08.16-19.25.52:397][344]LogSlate: Window 'Plugins' being destroyed
+[2024.08.16-19.25.52:397][344]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2024.08.16-19.26.05:405][855]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2024.08.16-19.26.05:405][855]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2024.08.16-19.26.06:968][  6]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.08.16-19.26.33:703][148]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2024.08.16-19.26.33:703][148]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2024.08.16-19.27.44:439][986]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2024.08.16-19.28.27:616][112]Running D:/Program Files (x86)/Epic Games/Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Unreal Projects/Github/GMTKJam2024/GMTK2024/GMTK2024.uproject" -game -rocket -progress
+[2024.08.16-19.28.28:022][112]Discovering modules, targets and source code for project...
+[2024.08.16-19.28.34:729][112]Binding IntelliSense data...
+[2024.08.16-19.28.53:365][112]Binding IntelliSense data... 50%
+[2024.08.16-19.28.53:366][112]Binding IntelliSense data... 100%
+[2024.08.16-19.28.53:366][112]Writing project files...
+[2024.08.16-19.28.58:774][112]Writing project files... 100%
+[2024.08.16-19.29.29:708][112]LogSlate: Window 'Message' being destroyed
+[2024.08.16-19.29.29:713][112]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'GMTKJam_PlayerController', however you must recompile the 'GMTK2024' module before it will appear in the Content Browser.
+
+Would you like to edit the code now?
+[2024.08.16-19.29.29:813][112]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.08.16-20.10.35:681][891]LogTemp: Repeating last play command: Selected Viewport
+[2024.08.16-20.10.36:511][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.16-20.10.36:658][891]PIE: New page: PIE session: ThirdPersonExampleMap (16 Aug 2024, 22:10:36)
+[2024.08.16-20.10.36:723][891]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2024.08.16-20.10.36:727][891]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.08.16-20.10.36:747][891]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2024.08.16-20.10.37:059][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.302241s)
+[2024.08.16-20.10.37:135][891]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2024.08.16-20.10.37:135][891]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000189A5739800), frame # 43891
+[2024.08.16-20.10.37:135][891]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000189A5CE79C0), frame # 43891
+[2024.08.16-20.10.37:154][891]LogPlayLevel: PIE: World Init took: (0.094435s)
+[2024.08.16-20.10.37:154][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.406657s)
+[2024.08.16-20.10.37:242][891]LogUObjectHash: Compacting FUObjectHashTables data took   7.14ms
+[2024.08.16-20.10.37:274][891]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.16-20.10.37:274][891]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.16-20.10.37:274][891]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.16-20.10.37:274][891]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.16-20.10.37:274][891]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.16-20.10.37:274][891]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.16-20.10.37:274][891]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.16-20.10.37:274][891]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.16-20.10.37:275][891]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.16-20.10.37:275][891]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.16-20.10.37:293][891]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.16-20.10.37:293][891]LogAudioMixer: Display: 1: FrontRight
+[2024.08.16-20.10.37:312][891]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.08.16-20.10.37:314][891]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.16-20.10.37:314][891]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.16-20.10.37:315][891]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.16-20.10.37:318][891]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.16-20.10.37:333][891]LogInit: FAudioDevice initialized.
+[2024.08.16-20.10.37:412][891]LogLoad: Game class is 'GMTK2024GameMode'
+[2024.08.16-20.10.37:652][891]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2024.08.16-21.10.37
+[2024.08.16-20.10.37:677][891]LogWorld: Bringing up level for play took: 0.042539
+[2024.08.16-20.10.37:678][891]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2024.08.16-20.10.37:992][891]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 20 classes and 0 folders.
+[2024.08.16-20.10.38:034][891]PIE: Server logged in
+[2024.08.16-20.10.38:040][891]PIE: Play in editor total start time 2.111 seconds.
+[2024.08.16-20.13.36:861][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.16-20.13.36:861][458]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2024.08.16-20.13.36:898][458]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.16-20.13.36:962][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.16-20.13.36:999][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.16-20.13.37:025][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.16-20.13.37:136][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.16-20.13.37:196][458]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000189A5739800), frame # 64458
+[2024.08.16-20.13.37:196][458]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000189A5CE79C0), frame # 64458
+[2024.08.16-20.13.37:216][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.08.16-20.13.37:240][459]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.08.16-20.44.57:072][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\12sha\Downloads\uploads_files_3269479_Dungeon+Terror.obj)
+[2024.08.16-20.44.57:275][231]LogFbx: Loading FBX Scene from C:\Users\12sha\Downloads\uploads_files_3269479_Dungeon+Terror.obj
+[2024.08.16-20.44.57:454][231]LogFbx: FBX Scene Loaded Succesfully
+[2024.08.16-20.45.06:388][231]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.08.16-20.45.09:028][231]LogMaterial: Display: Missing cached shader map for material defaultMat, compiling. 
+[2024.08.16-20.45.09:226][231]LogFbx: Display: Triangulating static mesh default
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 15
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2024.08.16-20.45.09:632][231]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2024.08.16-20.45.09:645][231]LogStaticMesh: Building static mesh uploads_files_3269479_Dungeon+Terror...
+[2024.08.16-20.45.10:221][231]LogStaticMesh: Built static mesh [0.58s] /Game/Game/Models/uploads_files_3269479_Dungeon+Terror.uploads_files_3269479_Dungeon+Terror
+[2024.08.16-20.45.10:248][231]LogStaticMesh: Warning: uploads_files_3269479_Dungeon+Terror has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.08.16-20.45.10:248][231]LogStaticMesh: Warning: uploads_files_3269479_Dungeon+Terror has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.08.16-20.45.10:413][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.08.16-20.45.10:413][231]FBXImport: Warning: uploads_files_3269479_Dungeon+Terror has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.08.16-20.45.10:413][231]FBXImport: Warning: uploads_files_3269479_Dungeon+Terror has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.08.16-20.45.10:845][231]LogSlate: Took 0.037298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.08.16-20.45.12:821][374]LogSlate: Window 'Message Log' being destroyed
+[2024.08.16-20.45.12:839][374]LogSlate: Window 'Message Log' being destroyed
+[2024.08.16-20.45.13:954][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.08.16-20.45.13:961][427]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.021
+[2024.08.16-20.45.14:022][427]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Models/uploads_files_3269479_Dungeon+Terror] ([1] browsable assets)...
+[2024.08.16-20.45.14:033][427]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Game/Models/uploads_files_3269479_Dungeon+Terror.uploads_files_3269479_Dungeon+Terror]
+[2024.08.16-20.45.14:033][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Models/uploads_files_3269479_Dungeon+Terror]
+[2024.08.16-20.45.14:074][427]LogSavePackage: Moving '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/uploads_files_3269479_Dungeon+Te1CA7CF8D42B65C8284091EB9F9A9E9E0.tmp' to '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/Game/Models/uploads_files_3269479_Dungeon+Terror_Auto1.uasset'
+[2024.08.16-20.45.14:082][427]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Models/defaultMat] ([1] browsable assets)...
+[2024.08.16-20.45.14:103][427]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Game/Models/defaultMat.defaultMat]
+[2024.08.16-20.45.14:103][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Models/defaultMat]
+[2024.08.16-20.45.14:114][427]LogSavePackage: Moving '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/defaultMat_Auto17567A5D74676D828FAB87B9D2A1585AC.tmp' to '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/Game/Models/defaultMat_Auto1.uasset'
+[2024.08.16-20.45.14:114][427]LogFileHelpers: Auto-saving content packages took 0.153
+[2024.08.16-20.45.19:135][953]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Game/Models/uploads_files_3269479_Dungeon+Terror.uploads_files_3269479_Dungeon+Terror
+[2024.08.16-20.45.20:682][953]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.08.16-20.45.20:682][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.16-20.45.21:003][953]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2024.08.16-20.45.21:003][953]LogSlate: Took 0.019534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.08.16-20.45.36:410][564]LogSavePackage: Moving '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/uploads_files_3269479_Dungeon+Te570195C54B3C6E54CFB875B804662C52.tmp' to '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/Game/Models/uploads_files_3269479_Dungeon+Terror.uasset'
+[2024.08.16-20.45.36:424][564]AssetCheck: New page: Asset Save: uploads_files_3269479_Dungeon+Terror
+[2024.08.16-20.45.36:424][564]LogContentValidation: Display: Validating StaticMesh /Game/Game/Models/uploads_files_3269479_Dungeon+Terror.uploads_files_3269479_Dungeon+Terror
+[2024.08.16-20.45.37:616][689]LogSlate: Window 'uploads_files_3269479_Dungeon+Terror' being destroyed
+[2024.08.16-20.45.37:622][689]LogSlate: Window 'uploads_files_3269479_Dungeon+Terror' being destroyed
+[2024.08.16-20.45.37:676][689]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.08.16-20.45.37:676][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.16-20.46.08:114][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.16-20.46.08:335][119]LogSavePackage: Moving '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/ThirdPersonExampleMapF65F8239470E9FE7F01FE98CCDC892C4.tmp' to '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2024.08.16-20.46.08:528][119]LogSavePackage: Moving '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/ThirdPersonExampleMap_BuiltDataB14D42DB4B7F140C768EF7926ACEB5D5.tmp' to '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2024.08.16-20.46.08:541][119]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.16-20.46.08:541][119]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2024.08.16-20.46.08:541][119]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2024.08.16-20.50.32:139][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.08.16-20.50.33:555][208]LogSlate: Window 'Save Content' being destroyed
+[2024.08.16-20.50.33:581][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Models/defaultMat" FILE="../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/Game/Models/defaultMat.uasset" SILENT=true
+[2024.08.16-20.50.33:584][208]LogSavePackage: Moving '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Saved/defaultMatE58177AB4CD4044ABB09B699F82816D4.tmp' to '../../../../../../../Unreal Projects/Github/GMTKJam2024/GMTK2024/Content/Game/Models/defaultMat.uasset'
+[2024.08.16-20.50.33:682][208]LogSlate: Window 'GMTK2024 - Unreal Editor' being destroyed
+[2024.08.16-20.50.34:144][208]AssetCheck: New page: Asset Save: defaultMat
+[2024.08.16-20.50.34:144][208]LogContentValidation: Display: Validating Material /Game/Game/Models/defaultMat.defaultMat
+[2024.08.16-20.50.34:147][209]Cmd: QUIT_EDITOR
+[2024.08.16-20.50.34:147][209]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.08.16-20.50.34:203][209]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.08.16-20.50.34:857][209]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2024.08.16-20.50.34:886][209]LogExit: Preparing to exit.
+[2024.08.16-20.50.35:901][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.08.16-20.50.35:901][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.08.16-20.50.35:901][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.08.16-20.50.35:901][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.08.16-20.50.35:901][209]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.08.16-20.50.35:901][209]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.08.16-20.50.36:395][209]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2024.08.16-20.50.36:618][209]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.08.16-20.50.36:640][209]LogExit: Editor shut down
+[2024.08.16-20.50.36:648][209]LogExit: Transaction tracking system shut down
+[2024.08.16-20.50.37:926][209]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001891495C340), frame # 80209
+[2024.08.16-20.50.37:926][209]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018914896AC0), frame # 80209
+[2024.08.16-20.50.37:930][209]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018914920A00), frame # 80209
+[2024.08.16-20.50.39:300][209]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000189370D9A00), frame # 80209
+[2024.08.16-20.50.39:300][209]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018916978180), frame # 80209
+[2024.08.16-20.50.39:517][209]LogExit: Object subsystem successfully closed.
+[2024.08.16-20.50.40:061][209]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.08.16-20.50.41:710][209]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (798)
+[2024.08.16-20.50.41:710][209]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2024.08.16-20.50.41:710][209]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2024.08.16-20.50.41:719][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2024.08.16-20.50.41:719][209]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2024.08.16-20.50.41:719][209]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2024.08.16-20.50.41:737][209]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2024.08.16-20.50.41:737][209]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2024.08.16-20.50.41:737][209]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2024.08.16-20.50.41:738][209]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2024.08.16-20.50.41:771][209]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2024.08.16-20.50.41:771][209]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2024.08.16-20.50.41:794][209]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2024.08.16-20.50.41:815][209]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2024.08.16-20.50.41:816][209]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2024.08.16-20.50.41:816][209]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2024.08.16-20.50.41:816][209]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2024.08.16-20.50.41:817][209]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2024.08.16-20.50.41:824][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2024.08.16-20.50.41:850][209]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2024.08.16-20.50.41:850][209]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2024.08.16-20.50.41:866][209]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2024.08.16-20.50.41:867][209]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2024.08.16-20.50.41:867][209]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2024.08.16-20.50.41:887][209]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2024.08.16-20.50.41:902][209]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2024.08.16-20.50.41:957][209]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2024.08.16-20.50.41:958][209]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2024.08.16-20.50.41:958][209]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2024.08.16-20.50.41:958][209]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2024.08.16-20.50.41:958][209]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2024.08.16-20.50.41:958][209]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2024.08.16-20.50.41:959][209]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2024.08.16-20.50.41:991][209]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2024.08.16-20.50.42:000][209]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2024.08.16-20.50.42:003][209]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2024.08.16-20.50.42:003][209]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2024.08.16-20.50.42:003][209]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2024.08.16-20.50.42:003][209]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2024.08.16-20.50.42:003][209]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2024.08.16-20.50.42:003][209]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2024.08.16-20.50.42:003][209]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2024.08.16-20.50.42:004][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2024.08.16-20.50.42:004][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2024.08.16-20.50.42:004][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2024.08.16-20.50.42:004][209]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2024.08.16-20.50.42:011][209]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2024.08.16-20.50.42:011][209]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2024.08.16-20.50.42:011][209]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2024.08.16-20.50.42:011][209]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2024.08.16-20.50.42:011][209]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2024.08.16-20.50.42:011][209]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2024.08.16-20.50.42:012][209]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2024.08.16-20.50.42:012][209]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2024.08.16-20.50.42:012][209]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2024.08.16-20.50.42:013][209]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2024.08.16-20.50.42:013][209]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2024.08.16-20.50.42:014][209]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2024.08.16-20.50.42:033][209]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2024.08.16-20.50.42:056][209]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2024.08.16-20.50.42:058][209]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2024.08.16-20.50.42:069][209]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2024.08.16-20.50.42:069][209]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2024.08.16-20.50.42:069][209]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2024.08.16-20.50.42:090][209]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2024.08.16-20.50.42:090][209]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2024.08.16-20.50.42:289][209]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2024.08.16-20.50.42:289][209]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2024.08.16-20.50.42:289][209]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2024.08.16-20.50.42:289][209]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2024.08.16-20.50.42:289][209]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2024.08.16-20.50.42:344][209]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2024.08.16-20.50.42:399][209]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2024.08.16-20.50.42:417][209]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2024.08.16-20.50.42:417][209]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2024.08.16-20.50.42:417][209]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2024.08.16-20.50.42:487][209]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2024.08.16-20.50.42:512][209]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2024.08.16-20.50.42:534][209]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2024.08.16-20.50.42:534][209]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2024.08.16-20.50.42:535][209]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2024.08.16-20.50.42:535][209]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2024.08.16-20.50.42:535][209]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2024.08.16-20.50.42:535][209]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2024.08.16-20.50.42:536][209]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2024.08.16-20.50.42:536][209]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2024.08.16-20.50.42:536][209]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2024.08.16-20.50.42:537][209]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2024.08.16-20.50.42:542][209]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2024.08.16-20.50.42:562][209]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2024.08.16-20.50.42:583][209]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2024.08.16-20.50.42:585][209]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2024.08.16-20.50.42:616][209]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2024.08.16-20.50.42:630][209]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2024.08.16-20.50.42:644][209]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2024.08.16-20.50.42:655][209]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2024.08.16-20.50.42:655][209]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2024.08.16-20.50.42:655][209]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2024.08.16-20.50.42:655][209]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2024.08.16-20.50.42:753][209]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2024.08.16-20.50.42:799][209]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2024.08.16-20.50.42:799][209]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2024.08.16-20.50.42:806][209]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2024.08.16-20.50.42:840][209]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2024.08.16-20.50.42:841][209]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2024.08.16-20.50.42:881][209]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2024.08.16-20.50.42:881][209]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2024.08.16-20.50.42:885][209]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2024.08.16-20.50.42:885][209]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2024.08.16-20.50.42:885][209]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2024.08.16-20.50.42:886][209]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2024.08.16-20.50.42:898][209]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2024.08.16-20.50.42:898][209]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2024.08.16-20.50.42:913][209]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2024.08.16-20.50.42:914][209]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2024.08.16-20.50.42:914][209]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2024.08.16-20.50.42:914][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2024.08.16-20.50.42:946][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2024.08.16-20.50.42:970][209]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2024.08.16-20.50.42:970][209]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2024.08.16-20.50.42:970][209]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2024.08.16-20.50.43:180][209]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2024.08.16-20.50.43:200][209]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2024.08.16-20.50.43:200][209]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2024.08.16-20.50.43:200][209]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2024.08.16-20.50.43:221][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2024.08.16-20.50.43:221][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2024.08.16-20.50.43:221][209]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2024.08.16-20.50.43:261][209]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2024.08.16-20.50.43:261][209]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2024.08.16-20.50.43:261][209]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2024.08.16-20.50.43:261][209]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2024.08.16-20.50.43:261][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2024.08.16-20.50.43:261][209]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2024.08.16-20.50.43:284][209]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2024.08.16-20.50.43:284][209]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2024.08.16-20.50.43:302][209]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2024.08.16-20.50.43:302][209]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2024.08.16-20.50.43:302][209]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2024.08.16-20.50.43:302][209]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2024.08.16-20.50.43:302][209]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2024.08.16-20.50.43:302][209]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2024.08.16-20.50.43:303][209]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2024.08.16-20.50.43:317][209]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2024.08.16-20.50.43:317][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2024.08.16-20.50.43:317][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2024.08.16-20.50.43:318][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2024.08.16-20.50.43:318][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2024.08.16-20.50.43:318][209]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2024.08.16-20.50.43:325][209]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2024.08.16-20.50.43:325][209]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2024.08.16-20.50.43:325][209]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2024.08.16-20.50.43:325][209]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2024.08.16-20.50.43:325][209]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2024.08.16-20.50.43:325][209]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2024.08.16-20.50.43:325][209]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2024.08.16-20.50.43:326][209]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2024.08.16-20.50.43:326][209]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2024.08.16-20.50.43:326][209]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2024.08.16-20.50.43:358][209]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2024.08.16-20.50.43:375][209]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2024.08.16-20.50.43:379][209]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2024.08.16-20.50.43:387][209]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2024.08.16-20.50.43:387][209]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2024.08.16-20.50.43:388][209]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2024.08.16-20.50.43:407][209]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2024.08.16-20.50.43:407][209]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2024.08.16-20.50.43:407][209]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2024.08.16-20.50.43:431][209]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2024.08.16-20.50.43:432][209]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2024.08.16-20.50.43:432][209]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2024.08.16-20.50.43:432][209]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2024.08.16-20.50.43:440][209]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2024.08.16-20.50.43:441][209]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2024.08.16-20.50.43:441][209]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2024.08.16-20.50.43:466][209]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2024.08.16-20.50.43:466][209]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2024.08.16-20.50.43:466][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2024.08.16-20.50.43:486][209]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2024.08.16-20.50.43:486][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2024.08.16-20.50.43:486][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2024.08.16-20.50.43:571][209]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2024.08.16-20.50.43:571][209]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2024.08.16-20.50.43:572][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2024.08.16-20.50.43:594][209]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2024.08.16-20.50.43:605][209]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2024.08.16-20.50.43:614][209]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module GMTK2024 (366)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2024.08.16-20.50.43:634][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2024.08.16-20.50.43:735][209]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2024.08.16-20.50.43:845][209]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2024.08.16-20.50.43:845][209]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2024.08.16-20.50.43:845][209]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2024.08.16-20.50.43:845][209]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2024.08.16-20.50.43:845][209]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2024.08.16-20.50.43:846][209]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2024.08.16-20.50.43:846][209]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2024.08.16-20.50.43:846][209]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2024.08.16-20.50.43:846][209]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2024.08.16-20.50.43:846][209]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2024.08.16-20.50.43:846][209]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2024.08.16-20.50.43:871][209]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.08.16-20.50.43:872][209]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2024.08.16-20.50.43:872][209]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2024.08.16-20.50.43:872][209]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2024.08.16-20.50.43:872][209]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2024.08.16-20.50.43:872][209]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2024.08.16-20.50.43:898][209]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2024.08.16-20.50.43:898][209]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2024.08.16-20.50.43:910][209]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2024.08.16-20.50.43:910][209]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2024.08.16-20.50.43:918][209]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2024.08.16-20.50.43:918][209]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2024.08.16-20.50.43:918][209]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2024.08.16-20.50.43:918][209]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2024.08.16-20.50.43:920][209]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2024.08.16-20.50.43:942][209]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2024.08.16-20.50.43:957][209]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2024.08.16-20.50.43:957][209]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2024.08.16-20.50.43:970][209]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2024.08.16-20.50.43:983][209]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2024.08.16-20.50.43:983][209]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2024.08.16-20.50.43:984][209]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2024.08.16-20.50.43:984][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2024.08.16-20.50.43:984][209]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2024.08.16-20.50.43:984][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2024.08.16-20.50.43:991][209]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2024.08.16-20.50.43:999][209]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2024.08.16-20.50.43:999][209]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2024.08.16-20.50.43:999][209]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2024.08.16-20.50.43:999][209]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2024.08.16-20.50.44:057][209]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2024.08.16-20.50.44:057][209]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2024.08.16-20.50.44:057][209]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2024.08.16-20.50.44:057][209]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2024.08.16-20.50.44:080][209]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2024.08.16-20.50.44:101][209]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2024.08.16-20.50.44:118][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2024.08.16-20.50.44:145][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2024.08.16-20.50.44:145][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2024.08.16-20.50.44:147][209]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2024.08.16-20.50.44:147][209]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2024.08.16-20.50.44:162][209]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2024.08.16-20.50.44:162][209]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2024.08.16-20.50.44:162][209]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2024.08.16-20.50.44:165][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2024.08.16-20.50.44:165][209]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2024.08.16-20.50.44:201][209]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2024.08.16-20.50.44:201][209]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2024.08.16-20.50.44:201][209]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2024.08.16-20.50.44:201][209]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2024.08.16-20.50.44:214][209]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2024.08.16-20.50.44:214][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2024.08.16-20.50.44:214][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2024.08.16-20.50.44:214][209]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2024.08.16-20.50.44:214][209]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2024.08.16-20.50.44:214][209]LogModuleManager: Shutting down and abandoning module Core (216)
+[2024.08.16-20.50.44:214][209]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2024.08.16-20.50.44:233][209]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2024.08.16-20.50.44:244][209]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2024.08.16-20.50.44:322][209]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2024.08.16-20.50.44:324][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2024.08.16-20.50.44:324][209]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2024.08.16-20.50.44:324][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2024.08.16-20.50.44:341][209]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2024.08.16-20.50.44:342][209]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2024.08.16-20.50.44:342][209]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2024.08.16-20.50.44:364][209]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2024.08.16-20.50.44:364][209]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2024.08.16-20.50.44:365][209]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2024.08.16-20.50.44:365][209]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2024.08.16-20.50.44:366][209]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2024.08.16-20.50.44:366][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2024.08.16-20.50.44:366][209]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2024.08.16-20.50.44:366][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2024.08.16-20.50.44:366][209]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2024.08.16-20.50.44:384][209]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2024.08.16-20.50.44:392][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2024.08.16-20.50.44:392][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2024.08.16-20.50.44:392][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2024.08.16-20.50.44:401][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2024.08.16-20.50.44:402][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2024.08.16-20.50.44:402][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2024.08.16-20.50.44:402][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2024.08.16-20.50.44:402][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2024.08.16-20.50.44:402][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2024.08.16-20.50.44:402][209]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2024.08.16-20.50.44:402][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2024.08.16-20.50.44:403][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2024.08.16-20.50.44:403][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2024.08.16-20.50.44:403][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2024.08.16-20.50.44:404][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2024.08.16-20.50.44:404][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2024.08.16-20.50.44:404][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2024.08.16-20.50.44:404][209]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2024.08.16-20.50.44:424][209]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2024.08.16-20.50.44:429][209]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2024.08.16-20.50.44:430][209]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2024.08.16-20.50.44:430][209]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2024.08.16-20.50.44:430][209]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2024.08.16-20.50.44:431][209]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2024.08.16-20.50.44:431][209]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2024.08.16-20.50.44:454][209]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2024.08.16-20.50.44:454][209]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2024.08.16-20.50.44:454][209]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2024.08.16-20.50.44:457][209]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2024.08.16-20.50.44:472][209]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2024.08.16-20.50.44:472][209]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2024.08.16-20.50.44:472][209]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2024.08.16-20.50.44:472][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2024.08.16-20.50.44:473][209]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2024.08.16-20.50.44:473][209]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2024.08.16-20.50.44:500][209]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2024.08.16-20.50.44:500][209]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2024.08.16-20.50.44:500][209]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2024.08.16-20.50.44:500][209]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2024.08.16-20.50.44:517][209]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2024.08.16-20.50.44:529][209]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2024.08.16-20.50.44:530][209]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2024.08.16-20.50.44:530][209]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2024.08.16-20.50.44:530][209]LogHMD: Freeing OpenVRDLLHandle.
+[2024.08.16-20.50.44:530][209]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2024.08.16-20.50.44:531][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2024.08.16-20.50.44:531][209]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2024.08.16-20.50.44:531][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2024.08.16-20.50.44:531][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2024.08.16-20.50.44:594][209]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2024.08.16-20.50.44:610][209]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2024.08.16-20.50.44:658][209]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2024.08.16-20.50.44:658][209]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2024.08.16-20.50.44:658][209]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFB2DADC6-4EFA-F591-63ED-A09F4C044A6F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=47c19abe4559bdba8c85c7b56a344be9%7C56353b415bb7499ca132fc0c84145c08%7Cb1a61b80-1f57-4c0f-9576-795640a80e3c&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2024.08.16-20.50.44:684][209]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2024.08.16-20.50.44:689][209]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2024.08.16-20.50.44:708][209]LogModuleManager: Shutting down and abandoning module Media (61)
+[2024.08.16-20.50.44:710][209]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2024.08.16-20.50.44:710][209]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2024.08.16-20.50.44:722][209]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2024.08.16-20.50.44:722][209]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2024.08.16-20.50.44:722][209]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2024.08.16-20.50.44:723][209]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2024.08.16-20.50.44:723][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2024.08.16-20.50.44:723][209]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2024.08.16-20.50.44:731][209]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2024.08.16-20.50.44:731][209]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2024.08.16-20.50.44:731][209]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2024.08.16-20.50.44:732][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2024.08.16-20.50.44:732][209]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2024.08.16-20.50.44:771][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2024.08.16-20.50.44:772][209]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2024.08.16-20.50.44:772][209]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2024.08.16-20.50.44:772][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2024.08.16-20.50.44:793][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2024.08.16-20.50.44:852][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2024.08.16-20.50.44:852][209]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2024.08.16-20.50.44:863][209]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2024.08.16-20.50.44:877][209]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2024.08.16-20.50.44:878][209]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2024.08.16-20.50.44:878][209]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2024.08.16-20.50.44:883][209]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2024.08.16-20.50.44:883][209]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2024.08.16-20.50.44:893][209]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2024.08.16-20.50.44:894][209]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2024.08.16-20.50.44:894][209]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2024.08.16-20.50.44:901][209]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2024.08.16-20.50.44:936][209]LogD3D11RHI: Shutdown
+[2024.08.16-20.50.44:936][209]LogD3D11RHI: CleanupD3DDevice
+[2024.08.16-20.50.45:011][209]LogExit: Exiting.
+[2024.08.16-20.50.45:084][209]Log file closed, 08/16/24 21:50:45

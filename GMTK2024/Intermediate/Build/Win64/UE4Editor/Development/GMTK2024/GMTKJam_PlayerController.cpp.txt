@@ -1,0 +1,3 @@
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Development\GMTK2024\Definitions.GMTK2024.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public\GMTKJam_PlayerController.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GMTKJam_PlayerController.generated.h
