@@ -1267,3 +1267,439 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.08.18-15.10.00:587][635]Cmd: EDIT PASTE
 [2024.08.18-15.10.26:491][139]LogEditorViewport: Clicking Background
 [2024.08.18-15.10.28:528][255]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight5)
+[2024.08.18-15.12.30:548][454]LogEditorViewport: Clicking Background
+[2024.08.18-15.13.08:233][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.08.18-15.13.08:249][441]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto61728AB9E4E209C2C7C6C4089144830BB.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto6.umap'
+[2024.08.18-15.13.08:250][441]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.043
+[2024.08.18-15.13.08:250][441]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.043
+[2024.08.18-15.14.19:027][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.08.18-15.14.19:094][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.08.18-15.14.19:104][133]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv7C43C019429A2700EF2ACF88F5E8024C.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.18-15.14.19:120][133]LogFileHelpers: Saving map 'TutorialLv' took 0.047
+[2024.08.18-15.14.19:130][133]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/cube_testing54290E534A9F90984BDF829D0DEC8560.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/cube_testing.uasset'
+[2024.08.18-15.14.19:159][133]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.18-15.14.19:160][133]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.18-15.14.19:160][133]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonCPP/MaxiVault/FromNath/cube_testing.cube_testing
+[2024.08.18-15.18.03:300][629]MapCheck: New page: Map Check
+[2024.08.18-15.18.03:321][629]LightingResults: New page: Lighting Build - Aug 18, 2024, 5:18:03 PM
+[2024.08.18-15.18.03:587][629]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.08.18-15.18.03:708][629]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.08.18-15.18.03:754][629]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.08.18-15.18.04:803][629]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.08.18-15.18.04:803][629]LogSwarmInterface: [TryOpenConnection] Local Process ID is 27708
+[2024.08.18-15.18.12:716][629]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.08.18-15.18.12:717][629]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.08.18-15.18.12:717][629]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.08.18-15.18.12:717][629]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.08.18-15.18.12:718][629]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.08.18-15.18.12:718][629]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.08.18-15.18.13:014][629]LogEditorBuildUtils: Build time 0:09
+[2024.08.18-15.18.13:028][629]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2024.08.18-15.18.13:044][629]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2024.08.18-15.18.13:059][630]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 4
+[2024.08.18-15.18.13:059][630]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 3
+[2024.08.18-15.18.13:059][630]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 2
+[2024.08.18-15.18.13:059][630]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 1
+[2024.08.18-15.18.13:065][630]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2024.08.18-15.18.13:069][630]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2024.08.18-15.18.13:072][630]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2024.08.18-15.18.13:075][630]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2024.08.18-15.18.13:099][631]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2024.08.18-15.18.13:106][631]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2024.08.18-15.18.13:122][632]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 10
+[2024.08.18-15.18.13:122][632]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 9
+[2024.08.18-15.18.13:122][632]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 8
+[2024.08.18-15.18.13:122][632]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 7
+[2024.08.18-15.18.13:122][632]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 6
+[2024.08.18-15.18.13:122][632]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 5
+[2024.08.18-15.18.13:124][632]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 4
+[2024.08.18-15.18.13:124][632]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 3
+[2024.08.18-15.18.13:124][632]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 2
+[2024.08.18-15.18.13:124][632]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 1
+[2024.08.18-15.18.14:218][632]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 2
+[2024.08.18-15.18.14:218][632]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 1
+[2024.08.18-15.18.14:415][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.08.18-15.18.15:472][681]LightingResults: Warning: sphere2 Object has overlapping UVs.
+[2024.08.18-15.18.15:473][681]LightingResults: sphere2 Lightmap UV are overlapping by 65.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.08.18-15.18.15:720][696]Job is a success!
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:      Bricks at depth
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:          1: 10.5% covering 6.2% of volume
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:          2: 86.8% covering 0.8% of volume
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:      Bricks in each level
+[2024.08.18-15.18.15:815][697]LogVolumetricLightmapImport:          TutorialLv 			 38 bricks 	 100.0% (Persistent Level)
+[2024.08.18-15.18.15:825][697]LightingResults: Warning: TowerLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2024.08.18-15.18.15:913][697]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2024.08.18-15.18.15:913][697]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2024.08.18-15.18.15:913][697]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 128X64)
+[2024.08.18-15.18.15:913][697]Lightmass on HCAYDERPOTATO: 1.06 sec total, 106 ms importing, 6 ms setup, 135 ms photons, 539 ms processing, 0 ms extra exporting [21/21 mappings]. Threads: 10.1 sec total, 386 ms processing.
+[2024.08.18-15.18.15:932][697]LogStaticLightingSystem: TutorialLv_BuiltData storing lightmap data for 21 meshes in 2 LightmapResourceClusters (10.5 Meshes per cluster).
+[2024.08.18-15.18.15:937][697]LogMaterial: Display: Material /Game/ThirdPersonCPP/MaxiVault/Pieces/Material.Material needed to have new flag set bUsedWithStaticLighting !
+[2024.08.18-15.18.15:939][697]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 24
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 22
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 20
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 18
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 16
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 14
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 12
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 10
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 8
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 6
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 4
+[2024.08.18-15.18.15:991][697]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 2
+[2024.08.18-15.18.15:991][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.08.18-15.18.16:080][697]LogStaticLightingSystem: Illumination: 12.6 sec (26 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2024.08.18-15.18.16:080][697]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.08.18-15.18.16:080][697]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.08.18-15.18.16:738][697]DumpUnbuiltLightIteractions
+[2024.08.18-15.18.16:738][697]Lights with unbuilt interactions: 0
+[2024.08.18-15.18.16:738][697]
+[2024.08.18-15.18.16:738][697]Primitives with unbuilt interactions: 0
+[2024.08.18-15.18.17:277][698]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.08.18-15.18.17:278][698]MapCheck: New page: TutorialLv - Aug 18, 2024, 5:18:17 PM
+[2024.08.18-15.18.17:280][698]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.537ms to complete.
+[2024.08.18-15.18.51:267][736]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.18.51:288][736]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.19.47:503][ 29]MapCheck: New page: Map Check
+[2024.08.18-15.19.47:529][ 29]LightingResults: New page: Lighting Build - Aug 18, 2024, 5:19:47 PM
+[2024.08.18-15.19.47:536][ 29]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.08.18-15.19.47:544][ 29]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.08.18-15.19.47:544][ 29]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.08.18-15.19.47:546][ 29]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.08.18-15.19.47:546][ 29]LogSwarmInterface: [TryOpenConnection] Local Process ID is 27708
+[2024.08.18-15.19.52:971][ 29]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.08.18-15.19.52:971][ 29]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.08.18-15.19.52:971][ 29]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.08.18-15.19.52:971][ 29]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.08.18-15.19.52:971][ 29]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.08.18-15.19.52:971][ 29]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.08.18-15.19.53:238][ 29]LogEditorBuildUtils: Build time 0:05
+[2024.08.18-15.19.53:252][ 29]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2024.08.18-15.19.53:254][ 29]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2024.08.18-15.19.53:644][ 29]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 4
+[2024.08.18-15.19.53:644][ 29]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 3
+[2024.08.18-15.19.53:644][ 29]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 2
+[2024.08.18-15.19.53:644][ 29]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 1
+[2024.08.18-15.19.53:728][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.08.18-15.19.54:634][ 77]LightingResults: Warning: sphere2 Object has overlapping UVs.
+[2024.08.18-15.19.54:634][ 77]LightingResults: sphere2 Lightmap UV are overlapping by 65.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.08.18-15.19.54:833][ 89]Job is a success!
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:      Bricks at depth
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:          1: 10.5% covering 6.2% of volume
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:          2: 86.8% covering 0.8% of volume
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:      Bricks in each level
+[2024.08.18-15.19.54:921][ 90]LogVolumetricLightmapImport:          TutorialLv 			 38 bricks 	 100.0% (Persistent Level)
+[2024.08.18-15.19.54:928][ 90]LightingResults: Warning: TowerLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2024.08.18-15.19.54:965][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2024.08.18-15.19.54:965][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2024.08.18-15.19.54:965][ 90]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 128X64)
+[2024.08.18-15.19.54:981][ 90]Lightmass on HCAYDERPOTATO: 1.01 sec total, 89 ms importing, 7 ms setup, 76 ms photons, 664 ms processing, 0 ms extra exporting [21/21 mappings]. Threads: 12.0 sec total, 453 ms processing.
+[2024.08.18-15.19.54:981][ 90]LogStaticLightingSystem: TutorialLv_BuiltData storing lightmap data for 21 meshes in 2 LightmapResourceClusters (10.5 Meshes per cluster).
+[2024.08.18-15.19.55:000][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.08.18-15.19.55:063][ 90]LogStaticLightingSystem: Illumination: 7.44 sec (14 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2024.08.18-15.19.55:063][ 90]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.08.18-15.19.55:063][ 90]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.08.18-15.19.56:000][ 90]DumpUnbuiltLightIteractions
+[2024.08.18-15.19.56:000][ 90]Lights with unbuilt interactions: 0
+[2024.08.18-15.19.56:000][ 90]
+[2024.08.18-15.19.56:000][ 90]Primitives with unbuilt interactions: 0
+[2024.08.18-15.19.56:073][ 91]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.08.18-15.19.56:073][ 91]MapCheck: New page: TutorialLv - Aug 18, 2024, 5:19:56 PM
+[2024.08.18-15.19.56:074][ 91]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.452ms to complete.
+[2024.08.18-15.20.02:343][461]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.20.02:358][461]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.20.11:985][ 37]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight)
+[2024.08.18-15.20.49:174][262]Cmd: DELETE
+[2024.08.18-15.20.49:174][262]Cmd: ACTOR DELETE
+[2024.08.18-15.20.49:176][262]LogEditorActor: Deleted Actor: PointLight
+[2024.08.18-15.20.49:187][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.08.18-15.20.49:190][262]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2024.08.18-15.21.19:869][ 86]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight2)
+[2024.08.18-15.21.28:250][582]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight)
+[2024.08.18-15.22.12:263][191]LogEditorViewport: Clicking Background
+[2024.08.18-15.22.16:764][438]MapCheck: New page: Map Check
+[2024.08.18-15.22.16:790][438]LightingResults: New page: Lighting Build - Aug 18, 2024, 5:22:16 PM
+[2024.08.18-15.22.16:795][438]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.08.18-15.22.16:804][438]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.08.18-15.22.16:804][438]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.08.18-15.22.16:805][438]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.08.18-15.22.16:805][438]LogSwarmInterface: [TryOpenConnection] Local Process ID is 27708
+[2024.08.18-15.22.22:220][438]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.08.18-15.22.22:221][438]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.08.18-15.22.22:221][438]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.08.18-15.22.22:221][438]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.08.18-15.22.22:221][438]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.08.18-15.22.22:221][438]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.08.18-15.22.22:484][438]LogEditorBuildUtils: Build time 0:05
+[2024.08.18-15.22.22:520][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.08.18-15.22.23:216][461]LightingResults: Warning: sphere2 Object has overlapping UVs.
+[2024.08.18-15.22.23:216][461]LightingResults: sphere2 Lightmap UV are overlapping by 65.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.08.18-15.22.23:554][480]Job is a success!
+[2024.08.18-15.22.23:657][482]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2024.08.18-15.22.23:657][482]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.08.18-15.22.23:657][482]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2024.08.18-15.22.23:658][482]LogVolumetricLightmapImport:      Bricks at depth
+[2024.08.18-15.22.23:658][482]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
+[2024.08.18-15.22.23:658][482]LogVolumetricLightmapImport:          1: 10.5% covering 6.2% of volume
+[2024.08.18-15.22.23:658][482]LogVolumetricLightmapImport:          2: 86.8% covering 0.8% of volume
+[2024.08.18-15.22.23:658][482]LogVolumetricLightmapImport:      Bricks in each level
+[2024.08.18-15.22.23:658][482]LogVolumetricLightmapImport:          TutorialLv 			 38 bricks 	 100.0% (Persistent Level)
+[2024.08.18-15.22.23:712][482]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2024.08.18-15.22.23:712][482]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2024.08.18-15.22.23:712][482]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 64X64)
+[2024.08.18-15.22.23:712][482]Lightmass on HCAYDERPOTATO: 894 ms total, 91 ms importing, 6 ms setup, 76 ms photons, 550 ms processing, 0 ms extra exporting [21/21 mappings]. Threads: 10.3 sec total, 377 ms processing.
+[2024.08.18-15.22.23:727][482]LogStaticLightingSystem: TutorialLv_BuiltData storing lightmap data for 21 meshes in 2 LightmapResourceClusters (10.5 Meshes per cluster).
+[2024.08.18-15.22.23:741][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.08.18-15.22.23:775][482]LogStaticLightingSystem: Illumination: 6.92 sec (16 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2024.08.18-15.22.23:775][482]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.08.18-15.22.23:775][482]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.08.18-15.22.24:244][482]DumpUnbuiltLightIteractions
+[2024.08.18-15.22.24:244][482]Lights with unbuilt interactions: 0
+[2024.08.18-15.22.24:244][482]
+[2024.08.18-15.22.24:244][482]Primitives with unbuilt interactions: 0
+[2024.08.18-15.22.24:329][483]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.08.18-15.22.24:329][483]MapCheck: New page: TutorialLv - Aug 18, 2024, 5:22:24 PM
+[2024.08.18-15.22.24:329][483]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.577ms to complete.
+[2024.08.18-15.24.22:713][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.08.18-15.24.22:734][335]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto754EF6A92427B79D9C14FD9B36B6AAECC.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto7.umap'
+[2024.08.18-15.24.22:736][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.034
+[2024.08.18-15.24.22:736][335]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.034
+[2024.08.18-15.24.22:737][335]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/MaxiVault/Pieces/Material] ([1] browsable assets)...
+[2024.08.18-15.24.22:748][335]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonCPP/MaxiVault/Pieces/Material.Material]
+[2024.08.18-15.24.22:749][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/MaxiVault/Pieces/Material]
+[2024.08.18-15.24.22:761][335]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material_Auto729980B02408EEC446C0C5CAE5346C867.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/MaxiVault/Pieces/Material_Auto7.uasset'
+[2024.08.18-15.24.22:762][335]LogFileHelpers: Auto-saving content packages took 0.026
+[2024.08.18-15.24.51:910][752]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.24.52:895][810]LogEditorViewport: Clicking Background
+[2024.08.18-15.34.13:553][960]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPersonCPP/MaxiVault/Pieces/sphere2.sphere2
+[2024.08.18-15.34.13:948][960]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-15.34.13:948][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-15.34.14:155][960]LogRenderer: Reallocating scene render targets to support 1528x984 Format 10 NumSamples 1 (Frame:1).
+[2024.08.18-15.35.46:027][230]LogMeshUtilities: Finished distance field build in 0.2s - 25x25x25 distance field, 768 triangles, Range [-0.7, 1.0], sphere2
+[2024.08.18-15.35.46:083][231]LogStaticMesh: Allocated 25x25x25 distance field atlas = 0.0Mb, with 1 objects containing 0.0Mb backing data
+[2024.08.18-15.37.11:816][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.08.18-15.37.11:829][117]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto8E39C20A84A119CB8417A14B99CD4E487.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto8.umap'
+[2024.08.18-15.37.11:830][117]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.035
+[2024.08.18-15.37.11:830][117]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.035
+[2024.08.18-15.37.11:830][117]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/MaxiVault/Pieces/sphere2] ([1] browsable assets)...
+[2024.08.18-15.37.11:847][117]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonCPP/MaxiVault/Pieces/sphere2.sphere2]
+[2024.08.18-15.37.11:847][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/MaxiVault/Pieces/sphere2]
+[2024.08.18-15.37.11:857][117]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/sphere2_Auto8C4DD52754BB6DFFBA0001F85A0CA2600.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/MaxiVault/Pieces/sphere2_Auto8.uasset'
+[2024.08.18-15.37.11:859][117]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: request failed, libcurl error: 0 (No error)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e53a2ff70 [can pipeline])
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 1 (Re-using existing connection! (#44) with host datarouter.ol.epicgames.com)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.209.137.71) port 443 (#44))
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 8 (Closing connection 44)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: 0000027F02E92400: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.18-15.37.31:225][176]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.18-15.49.04:527][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.08.18-15.49.04:584][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.08.18-15.49.04:595][500]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv77ED9832446A5C8A0DA36A90023C792F.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.18-15.49.04:605][500]LogFileHelpers: Saving map 'TutorialLv' took 0.040
+[2024.08.18-15.49.04:612][500]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltData27969D114648C7ED9A08898BDEA52D79.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.18-15.49.04:620][500]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/sphere2758D2E714F6257E7AA142B9621E6EA4D.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Pieces/sphere2.uasset'
+[2024.08.18-15.49.04:625][500]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/MaterialCDA293A34C71C150AC362884A09AD38C.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Pieces/Material.uasset'
+[2024.08.18-15.49.04:660][500]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.18-15.49.04:660][500]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.18-15.49.04:660][500]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.18-15.49.04:660][500]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonCPP/MaxiVault/Pieces/sphere2.sphere2
+[2024.08.18-15.49.04:660][500]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Pieces/Material.Material
+[2024.08.18-15.49.05:789][558]LogSlate: Window 'sphere2' being destroyed
+[2024.08.18-15.49.05:830][558]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-15.49.05:830][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-15.49.12:645][951]MapCheck: New page: Map Check
+[2024.08.18-15.49.12:668][951]LightingResults: New page: Lighting Build - Aug 18, 2024, 5:49:12 PM
+[2024.08.18-15.49.12:673][951]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.08.18-15.49.12:681][951]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.08.18-15.49.12:681][951]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.08.18-15.49.12:683][951]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.08.18-15.49.12:683][951]LogSwarmInterface: [TryOpenConnection] Local Process ID is 27708
+[2024.08.18-15.49.18:114][951]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.08.18-15.49.18:114][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.08.18-15.49.18:114][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.08.18-15.49.18:114][951]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.08.18-15.49.18:114][951]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.08.18-15.49.18:114][951]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.08.18-15.49.18:330][951]LogEditorBuildUtils: Build time 0:05
+[2024.08.18-15.49.18:377][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.08.18-15.49.19:041][973]LightingResults: Warning: sphere2 Object has overlapping UVs.
+[2024.08.18-15.49.19:041][973]LightingResults: sphere2 Lightmap UV are overlapping by 65.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.08.18-15.49.19:400][994]Job is a success!
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:      Bricks at depth
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:          1: 10.5% covering 6.2% of volume
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:          2: 86.8% covering 0.8% of volume
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:      Bricks in each level
+[2024.08.18-15.49.19:482][995]LogVolumetricLightmapImport:          TutorialLv 			 38 bricks 	 100.0% (Persistent Level)
+[2024.08.18-15.49.19:538][995]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2024.08.18-15.49.19:538][995]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2024.08.18-15.49.19:538][995]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 64X64)
+[2024.08.18-15.49.19:538][995]Lightmass on HCAYDERPOTATO: 887 ms total, 92 ms importing, 8 ms setup, 79 ms photons, 547 ms processing, 0 ms extra exporting [21/21 mappings]. Threads: 10.1 sec total, 253 ms processing.
+[2024.08.18-15.49.19:555][995]LogStaticLightingSystem: TutorialLv_BuiltData storing lightmap data for 21 meshes in 2 LightmapResourceClusters (10.5 Meshes per cluster).
+[2024.08.18-15.49.19:569][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.08.18-15.49.19:597][995]LogStaticLightingSystem: Illumination: 6.87 sec (18 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2024.08.18-15.49.19:597][995]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.08.18-15.49.19:598][995]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.08.18-15.49.20:111][995]DumpUnbuiltLightIteractions
+[2024.08.18-15.49.20:111][995]Lights with unbuilt interactions: 0
+[2024.08.18-15.49.20:112][995]
+[2024.08.18-15.49.20:112][995]Primitives with unbuilt interactions: 0
+[2024.08.18-15.49.20:175][996]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.08.18-15.49.20:175][996]MapCheck: New page: TutorialLv - Aug 18, 2024, 5:49:20 PM
+[2024.08.18-15.49.20:175][996]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.456ms to complete.
+[2024.08.18-15.49.25:127][293]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.49.25:145][293]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.49.30:484][597]MapCheck: New page: Map Check
+[2024.08.18-15.49.30:514][597]LightingResults: New page: Lighting Build - Aug 18, 2024, 5:49:30 PM
+[2024.08.18-15.49.30:520][597]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.08.18-15.49.30:528][597]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.08.18-15.49.30:528][597]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.08.18-15.49.30:529][597]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.08.18-15.49.30:529][597]LogSwarmInterface: [TryOpenConnection] Local Process ID is 27708
+[2024.08.18-15.49.35:948][597]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.08.18-15.49.35:948][597]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.08.18-15.49.35:948][597]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.08.18-15.49.35:948][597]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.08.18-15.49.35:948][597]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.08.18-15.49.35:948][597]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.08.18-15.49.36:224][597]LogEditorBuildUtils: Build time 0:05
+[2024.08.18-15.49.36:261][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.08.18-15.49.36:909][620]LightingResults: Warning: sphere2 Object has overlapping UVs.
+[2024.08.18-15.49.36:930][621]LightingResults: sphere2 Lightmap UV are overlapping by 65.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.08.18-15.49.37:223][638]Job is a success!
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:      Bricks at depth
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:          1: 10.5% covering 6.2% of volume
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:          2: 86.8% covering 0.8% of volume
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:      Bricks in each level
+[2024.08.18-15.49.37:307][639]LogVolumetricLightmapImport:          TutorialLv 			 38 bricks 	 100.0% (Persistent Level)
+[2024.08.18-15.49.37:361][639]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2024.08.18-15.49.37:361][639]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2024.08.18-15.49.37:361][639]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 64X64)
+[2024.08.18-15.49.37:361][639]Lightmass on HCAYDERPOTATO: 836 ms total, 81 ms importing, 7 ms setup, 66 ms photons, 553 ms processing, 0 ms extra exporting [21/21 mappings]. Threads: 10.2 sec total, 224 ms processing.
+[2024.08.18-15.49.37:379][639]LogStaticLightingSystem: TutorialLv_BuiltData storing lightmap data for 21 meshes in 2 LightmapResourceClusters (10.5 Meshes per cluster).
+[2024.08.18-15.49.37:392][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.08.18-15.49.37:455][639]LogStaticLightingSystem: Illumination: 6.85 sec (18 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2024.08.18-15.49.37:455][639]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.08.18-15.49.37:455][639]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.08.18-15.49.37:976][639]DumpUnbuiltLightIteractions
+[2024.08.18-15.49.37:976][639]Lights with unbuilt interactions: 0
+[2024.08.18-15.49.37:976][639]
+[2024.08.18-15.49.37:976][639]Primitives with unbuilt interactions: 0
+[2024.08.18-15.49.38:039][640]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.08.18-15.49.38:039][640]MapCheck: New page: TutorialLv - Aug 18, 2024, 5:49:38 PM
+[2024.08.18-15.49.38:039][640]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.427ms to complete.
+[2024.08.18-15.49.40:248][769]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.49.40:268][769]LogSlate: Window 'Message Log' being destroyed
+[2024.08.18-15.49.43:629][970]Cmd: POLY SELECT MEMORY UNION
+[2024.08.18-15.50.48:347][751]Cmd: DELETE
+[2024.08.18-15.50.48:347][751]Cmd: ACTOR DELETE
+[2024.08.18-15.50.48:348][751]LogEditorActor: Deleted Actor: DirectionalLight
+[2024.08.18-15.50.48:362][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.08.18-15.50.48:376][751]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2024.08.18-15.52.07:853][612]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight5)
+[2024.08.18-15.52.35:929][279]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight)
+[2024.08.18-15.52.53:132][308]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight2)
+[2024.08.18-15.53.07:533][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_corner4)
+[2024.08.18-15.53.13:173][500]Cmd: EDIT COPY
+[2024.08.18-15.53.13:775][536]Cmd: EDIT PASTE
+[2024.08.18-15.53.39:155][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_corner4)
+[2024.08.18-15.53.47:030][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_corner5)
+[2024.08.18-15.53.49:598][651]Cmd: EDIT COPY
+[2024.08.18-15.53.50:169][685]Cmd: EDIT PASTE
+[2024.08.18-15.54.37:016][468]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight5)
+[2024.08.18-15.54.43:768][866]Cmd: EDIT COPY
+[2024.08.18-15.54.44:122][887]Cmd: EDIT PASTE
+[2024.08.18-15.55.01:929][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_corner6)
+[2024.08.18-15.55.03:234][ 16]Cmd: EDIT COPY
+[2024.08.18-15.55.03:574][ 36]Cmd: EDIT PASTE
+[2024.08.18-15.55.26:851][416]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight2)
+[2024.08.18-15.55.38:211][ 82]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight)
+[2024.08.18-15.55.40:147][193]LogSlate: Window 'Color Picker' being destroyed
+[2024.08.18-15.55.41:161][251]LogSlate: Window 'Color Picker' being destroyed
+[2024.08.18-15.55.57:462][212]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight2)
+[2024.08.18-15.56.08:418][859]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight3)
+[2024.08.18-15.56.15:275][259]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight)
+[2024.08.18-15.56.16:995][361]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight3)
+[2024.08.18-15.56.16:996][361]LogSlate: Window 'Color Picker' being destroyed
+[2024.08.18-15.56.30:571][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mushroom?)
+[2024.08.18-15.56.31:570][221]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (TowerLight6)
+[2024.08.18-15.56.44:475][990]LogEditorViewport: Clicking Background
+[2024.08.18-15.56.45:145][ 28]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight6)
+[2024.08.18-15.56.47:448][165]Cmd: EDIT COPY
+[2024.08.18-15.56.47:749][183]Cmd: EDIT PASTE
+[2024.08.18-15.57.06:826][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mushroom?)
+[2024.08.18-15.57.08:044][387]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (TowerLight6)
+[2024.08.18-15.57.17:314][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2x2x1)
+[2024.08.18-15.57.17:753][961]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight6)
+[2024.08.18-15.57.54:600][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_corner6)
+[2024.08.18-15.57.55:428][179]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (wall_corner7)
+[2024.08.18-15.58.07:474][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_corner6)
+[2024.08.18-15.58.11:290][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2024.08.18-15.58.11:934][161]LogEditorViewport: Clicking Background
+[2024.08.18-15.59.11:756][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.08.18-15.59.11:790][439]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto956F4655F4230CA9CF7C5B6B5AF451569.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto9.umap'
+[2024.08.18-15.59.11:792][439]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.045
+[2024.08.18-15.59.11:792][439]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.045
+[2024.08.18-16.03.03:778][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2x2x1)
+[2024.08.18-16.03.45:253][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_corner6)
+[2024.08.18-16.04.02:403][467]LogActorFactory: Actor Factory created cube9
+[2024.08.18-16.04.04:742][604]LogActorFactory: Actor Factory created cube9
+[2024.08.18-16.04.32:119][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2024.08.18-16.04.32:828][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2024.08.18-16.04.33:169][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube11)
+[2024.08.18-16.06.30:983][302]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight6)
+[2024.08.18-16.06.31:686][342]Cmd: EDIT COPY
+[2024.08.18-16.06.32:632][397]Cmd: EDIT PASTE
+[2024.08.18-16.08.26:899][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube11)
+[2024.08.18-16.09.07:104][564]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TrapzCube)
+[2024.08.18-16.09.09:272][687]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2x2x1)
+[2024.08.18-16.09.10:092][727]LogEditorViewport: Clicking Background
+[2024.08.18-16.09.11:173][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TrapzCube)
+[2024.08.18-16.09.23:790][538]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TrapzCube)
+[2024.08.18-16.09.24:356][569]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TrapzCube)
+[2024.08.18-16.09.27:342][729]Cmd: ACTOR BAKEPREPIVOT
+[2024.08.18-16.09.44:285][720]LogActorFactory: Actor Factory created railing
+[2024.08.18-16.09.46:625][858]LogActorFactory: Actor Factory created railing
+[2024.08.18-16.10.08:543][152]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (railing)
+[2024.08.18-16.10.27:995][253]Cmd: ACTOR BAKEPREPIVOT
+[2024.08.18-16.11.34:453][172]Cmd: EDIT COPY
+[2024.08.18-16.11.35:157][214]Cmd: EDIT PASTE
+[2024.08.18-16.11.52:908][264]LogEditorViewport: Clicking Background
+[2024.08.18-16.11.59:459][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2x2x1)
+[2024.08.18-16.12.16:945][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.08.18-16.12.16:968][697]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv55662E29430F291A768CA5A7BE2D8E08.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.18-16.12.16:979][697]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 4
+SessionName : 
+Reason      : Map Saved
+
+Purging the undo buffer...
+
+[2024.08.18-16.12.16:989][697]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltData95B0C87A47B2203D606FB3BA19F4C0ED.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.18-16.12.17:024][697]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.18-16.12.17:024][697]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.18-16.12.17:024][697]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.18-16.13.10:356][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
