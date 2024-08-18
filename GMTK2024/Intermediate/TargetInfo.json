@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "GMTK2024",
-			"Path": "D:\\Unreal Projects\\Github\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024.Target.cs",
+			"Path": "C:\\Users\\Max\\Documents\\Unreal Projects\\gmtk24\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "GMTK2024Editor",
-			"Path": "D:\\Unreal Projects\\Github\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024Editor.Target.cs",
+			"Path": "C:\\Users\\Max\\Documents\\Unreal Projects\\gmtk24\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]
