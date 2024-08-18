@@ -1703,3 +1703,898 @@ Purging the undo buffer...
 [2024.08.18-16.12.17:024][697]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
 [2024.08.18-16.12.17:024][697]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
 [2024.08.18-16.13.10:356][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.08.18-16.14.10:030][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mushroom?2)
+[2024.08.18-16.14.13:202][374]Cmd: EDIT COPY
+[2024.08.18-16.14.13:839][412]Cmd: EDIT PASTE
+[2024.08.18-16.14.35:625][709]LogEditorViewport: Clicking Background
+[2024.08.18-16.20.19:581][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.08.18-16.20.19:636][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.08.18-16.20.19:660][542]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLvC39C857C4216DA276A28BDBD8842C226.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.18-16.20.19:673][542]LogFileHelpers: Saving map 'TutorialLv' took 0.049
+[2024.08.18-16.20.19:681][542]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltData1835951940FCAE2C332092AC71F9EF70.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.18-16.20.19:704][542]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.18-16.20.19:704][542]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.18-16.20.19:704][542]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.18-16.35.17:439][ 98]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Max\Desktop\MaxPj\MyGameAssets\gmtk2024_Nath\Floor texture.jpg)
+[2024.08.18-16.35.17:523][ 98]LogTexture: Display: Building textures: Floor_texture (BGRA8, 2391X1196)
+[2024.08.18-16.35.17:788][ 98]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Max\Desktop\MaxPj\MyGameAssets\gmtk2024_Nath\Wall Texture.jpg)
+[2024.08.18-16.35.17:808][ 98]LogTexture: Display: Building textures: Wall_Texture (AutoDXT, 1920X1080)
+[2024.08.18-16.35.46:627][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.08.18-16.35.46:635][838]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.019
+[2024.08.18-16.35.46:635][838]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/MaxiVault/FromNath/Floor_texture] ([1] browsable assets)...
+[2024.08.18-16.35.46:640][838]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonCPP/MaxiVault/FromNath/Floor_texture.Floor_texture]
+[2024.08.18-16.35.46:640][838]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/MaxiVault/FromNath/Floor_texture]
+[2024.08.18-16.35.46:649][838]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Floor_texture_Auto0DC8FE8F44FABA85BC49AAFA99A6536FF.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/MaxiVault/FromNath/Floor_texture_Auto0.uasset'
+[2024.08.18-16.35.46:650][838]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/MaxiVault/FromNath/Wall_Texture] ([1] browsable assets)...
+[2024.08.18-16.35.46:654][838]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonCPP/MaxiVault/FromNath/Wall_Texture.Wall_Texture]
+[2024.08.18-16.35.46:654][838]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/MaxiVault/FromNath/Wall_Texture]
+[2024.08.18-16.35.46:658][838]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Wall_Texture_Auto0E71AC5FD410AE0C142E82AA4BFABFC93.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/MaxiVault/FromNath/Wall_Texture_Auto0.uasset'
+[2024.08.18-16.35.46:659][838]LogFileHelpers: Auto-saving content packages took 0.024
+[2024.08.18-16.36.33:063][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (railing)
+[2024.08.18-16.36.34:288][667]Cmd: EDIT COPY
+[2024.08.18-16.36.34:625][687]Cmd: EDIT PASTE
+[2024.08.18-16.37.26:819][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HexPlatform6)
+[2024.08.18-16.37.30:880][ 24]LogHttp: Warning: 0000027EFD987900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.18-16.37.30:880][ 24]LogHttp: Warning: 0000027EFD987900: request failed, libcurl error: 0 (No error)
+[2024.08.18-16.37.30:880][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e53a2ff70 [can pipeline])
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 1 (Re-using existing connection! (#68) with host datarouter.ol.epicgames.com)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.213.23.219) port 443 (#68))
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 8 (Closing connection 68)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: 0000027EFD987900: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.18-16.37.30:881][ 24]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.18-16.37.57:375][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sphere2)
+[2024.08.18-16.38.00:446][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube8)
+[2024.08.18-16.38.01:703][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UnrealPrimitiveCube)
+[2024.08.18-16.38.04:799][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (railing)
+[2024.08.18-16.38.07:198][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (railing2)
+[2024.08.18-16.38.52:488][880]LogEditorViewport: Clicking Background
+[2024.08.18-16.42.25:032][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HexPlatform6)
+[2024.08.18-16.42.37:160][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (railing3)
+[2024.08.18-16.43.17:886][721]Cmd: TRANSACTION UNDO
+[2024.08.18-16.43.17:886][721]LogEditorTransaction: Undo Set Rotation
+[2024.08.18-16.43.29:697][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube9)
+[2024.08.18-16.43.30:507][465]LogEditorViewport: Clicking Background
+[2024.08.18-16.43.33:601][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (railing3)
+[2024.08.18-16.43.33:866][664]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (railing3)
+[2024.08.18-16.43.35:022][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (railing3)
+[2024.08.18-16.43.36:533][821]Cmd: DELETE
+[2024.08.18-16.43.36:536][821]Cmd: ACTOR DELETE
+[2024.08.18-16.43.36:538][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.18-16.43.36:549][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.08.18-16.43.36:559][821]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.08.18-16.45.38:414][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2024.08.18-16.46.03:992][463]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPersonCPP/MaxiVault/Materials/Floor.Floor
+[2024.08.18-16.46.04:009][463]LogMaterial: Display: Missing cached shader map for material Floor, compiling. 
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 9
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 7
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 5
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 4
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 3
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.08.18-16.46.04:044][463]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 1
+[2024.08.18-16.46.04:266][463]LogMaterial: Display: Missing cached shader map for material Floor, compiling. 
+[2024.08.18-16.46.04:276][463]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 9
+[2024.08.18-16.46.04:276][463]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 8
+[2024.08.18-16.46.04:276][463]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 7
+[2024.08.18-16.46.04:276][463]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 6
+[2024.08.18-16.46.04:276][463]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 5
+[2024.08.18-16.46.04:276][463]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 4
+[2024.08.18-16.46.04:276][463]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 3
+[2024.08.18-16.46.04:317][463]LogSlate: Took 0.001360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.08.18-16.46.04:937][471]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 2
+[2024.08.18-16.46.05:054][473]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 1
+[2024.08.18-16.46.05:834][492]MaterialEditorStats: Base pass shader: 117 instructions
+[2024.08.18-16.46.05:834][492]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2024.08.18-16.46.05:834][492]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2024.08.18-16.46.05:834][492]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.18-16.46.08:070][619]LogSlate: Window 'Floor' being destroyed
+[2024.08.18-16.46.08:134][619]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.46.08:135][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.46.19:456][281]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/gmtkFloor2B112AD74F94C7AE7267B8821976AF0D.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/gmtkFloor.uasset'
+[2024.08.18-16.46.19:608][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.08.18-16.46.19:640][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.08.18-16.46.19:652][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.08.18-16.46.19:690][281]AssetCheck: New page: Asset Save: gmtkFloor
+[2024.08.18-16.46.19:690][281]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/gmtkFloor.gmtkFloor
+[2024.08.18-16.46.23:316][484]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPersonCPP/MaxiVault/Materials/gmtkFloor.gmtkFloor
+[2024.08.18-16.46.23:319][484]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-16.46.23:426][484]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-16.46.23:435][484]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 9
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 7
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 5
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 4
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 3
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.08.18-16.46.23:448][484]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 1
+[2024.08.18-16.46.24:330][512]MaterialEditorStats: Base pass shader: 117 instructions
+[2024.08.18-16.46.24:330][512]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2024.08.18-16.46.24:330][512]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2024.08.18-16.46.24:330][512]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.18-16.46.34:776][ 81]LogSlate: Window 'gmtkFloor' being destroyed
+[2024.08.18-16.47.13:219][331]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-16.47.13:226][331]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-16.47.13:228][331]LogMaterial: Warning: /Engine/Transient.gmtkFloor (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2024.08.18-16.47.13:228][331]LogMaterial: Display: 	(Node Desaturation) Missing Desaturation input
+[2024.08.18-16.47.13:233][331]MaterialEditorStats: Error: [SM5] (Node Desaturation) Missing Desaturation input
+[2024.08.18-16.47.15:460][462]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDesaturation_0, compiling. 
+[2024.08.18-16.47.19:171][673]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 9
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 7
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 5
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 4
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 3
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.08.18-16.47.19:201][674]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 1
+[2024.08.18-16.47.20:145][728]MaterialEditorStats: Base pass shader: 117 instructions
+[2024.08.18-16.47.20:145][728]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2024.08.18-16.47.20:145][728]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2024.08.18-16.47.20:145][728]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.18-16.47.21:232][792]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 9
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 7
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 5
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 4
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 3
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.08.18-16.47.21:262][792]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 1
+[2024.08.18-16.47.22:002][833]MaterialEditorStats: Base pass shader: 117 instructions
+[2024.08.18-16.47.22:002][833]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2024.08.18-16.47.22:002][833]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2024.08.18-16.47.22:002][833]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.18-16.47.58:416][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.08.18-16.47.58:439][533]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto1BAFFF62949FF959866553F953B08951E.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto1.umap'
+[2024.08.18-16.47.58:441][533]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.036
+[2024.08.18-16.47.58:441][533]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.036
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: request failed, libcurl error: 0 (No error)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e53a2ff70 [can pipeline])
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 1 (Re-using existing connection! (#73) with host datarouter.ol.epicgames.com)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.233.205.83) port 443 (#73))
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 8 (Closing connection 73)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.18-16.57.31:223][282]LogHttp: Warning: 0000027F02862B00: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.18-16.57.31:224][282]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.18-16.57.59:106][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.08.18-16.57.59:108][364]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.013
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: request failed, libcurl error: 0 (No error)
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e53a2ff70 [can pipeline])
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 1 (Re-using existing connection! (#76) with host datarouter.ol.epicgames.com)
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.227.185.241) port 443 (#76))
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.18-17.06.31:035][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.18-17.06.31:036][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.18-17.06.31:036][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 8 (Closing connection 76)
+[2024.08.18-17.06.31:036][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.18-17.06.31:036][131]LogHttp: Warning: 0000027E0FABC100: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.18-17.06.31:367][132]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93CE1907-4FAA-9A63-6F14-76BB2412FDD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.18-17.08.10:244][567]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/M_gmtk_Floor7E45D22A4519B906B225739CF2351F82.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Floor.uasset'
+[2024.08.18-17.08.10:352][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.08.18-17.08.10:376][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.18-17.08.10:387][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2024.08.18-17.08.10:402][567]AssetCheck: New page: Asset Save: M_gmtk_Floor
+[2024.08.18-17.08.10:402][567]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Floor.M_gmtk_Floor
+[2024.08.18-17.09.57:452][620]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.09.57:456][620]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 13
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 12
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 11
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 10
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 9
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 8
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 7
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 6
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 5
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 4
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 3
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 2
+[2024.08.18-17.09.57:468][620]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 1
+[2024.08.18-17.09.57:472][620]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.08.18-17.09.57:586][624]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 4
+[2024.08.18-17.09.57:586][624]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 3
+[2024.08.18-17.09.57:586][624]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 2
+[2024.08.18-17.09.58:388][642]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 1
+[2024.08.18-17.09.59:602][687]MaterialEditorStats: Base pass shader: 117 instructions
+[2024.08.18-17.09.59:602][687]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2024.08.18-17.09.59:602][687]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2024.08.18-17.09.59:602][687]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.18-17.10.01:818][818]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 9
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 7
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 5
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 4
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 3
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.08.18-17.10.01:832][818]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 1
+[2024.08.18-17.10.01:832][818]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.08.18-17.10.01:871][818]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 4
+[2024.08.18-17.10.01:871][818]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 3
+[2024.08.18-17.10.01:871][818]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 2
+[2024.08.18-17.10.01:871][818]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 1
+[2024.08.18-17.10.02:852][847]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.10.02:852][847]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.10.02:852][847]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.10.02:852][847]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.10.02:852][847]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.10.02:852][847]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.10.28:266][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.08.18-17.10.28:346][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.08.18-17.10.28:364][285]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv63253AEC43E40597B068ABBA12166468.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.18-17.10.28:379][285]LogFileHelpers: Saving map 'TutorialLv' took 0.053
+[2024.08.18-17.10.28:391][285]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltDataA01620A544C603DA5FADAFAEFE8E4394.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.18-17.10.28:528][285]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Floor_texture3742518D45C97F4D795D8BA1A5565A1A.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/Floor_texture.uasset'
+[2024.08.18-17.10.28:565][285]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Wall_TextureCF904F954E48DA7C4CEBECACCCF26408.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/Wall_Texture.uasset'
+[2024.08.18-17.10.28:601][285]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.18-17.10.28:601][285]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.18-17.10.28:601][285]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.18-17.10.28:601][285]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonCPP/MaxiVault/FromNath/Floor_texture.Floor_texture
+[2024.08.18-17.10.28:601][285]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonCPP/MaxiVault/FromNath/Wall_Texture.Wall_Texture
+[2024.08.18-17.10.35:190][664]LogMaterial: Display: Material /Game/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Floor.M_gmtk_Floor needed to have new flag set bUsedWithStaticLighting !
+[2024.08.18-17.10.35:191][664]LogMaterial: Display: Material /Engine/Transient.gmtkFloor needed to have new flag set bUsedWithStaticLighting !
+[2024.08.18-17.10.35:192][664]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.10.35:198][664]LogMaterial: Display: Missing cached shader map for material M_gmtk_Floor, compiling. 
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.10.35:210][664]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.10.35:211][664]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.10.35:211][664]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.10.35:304][670]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 24
+[2024.08.18-17.10.35:304][670]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 22
+[2024.08.18-17.10.35:304][670]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 20
+[2024.08.18-17.10.35:304][670]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 18
+[2024.08.18-17.10.35:304][670]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 16
+[2024.08.18-17.10.35:975][704]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 14
+[2024.08.18-17.10.36:081][708]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 13
+[2024.08.18-17.10.36:244][713]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 12
+[2024.08.18-17.10.36:339][716]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 11
+[2024.08.18-17.10.36:488][722]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 10
+[2024.08.18-17.10.36:488][722]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 9
+[2024.08.18-17.10.36:568][725]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 8
+[2024.08.18-17.10.36:596][726]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 7
+[2024.08.18-17.10.36:596][726]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 6
+[2024.08.18-17.10.36:742][728]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 5
+[2024.08.18-17.10.36:883][733]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 4
+[2024.08.18-17.10.36:969][736]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.10.36:984][736]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.10.36:985][736]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.10.36:985][736]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.10.36:985][736]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.10.36:985][736]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.10.36:985][736]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.10.36:985][736]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.10.37:003][737]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 2
+[2024.08.18-17.10.37:254][746]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 1
+[2024.08.18-17.11.12:683][795]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.11.12:725][796]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.11.12:741][796]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2024.08.18-17.11.12:800][799]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 4
+[2024.08.18-17.11.12:800][799]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 3
+[2024.08.18-17.11.12:800][799]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 2
+[2024.08.18-17.11.12:800][799]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 1
+[2024.08.18-17.11.14:004][834]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.11.14:004][834]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.11.14:004][834]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.11.14:004][834]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.11.14:004][834]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.11.14:004][834]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.11.14:004][834]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.11.15:123][900]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.11.15:149][901]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.11.16:863][931]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.11.16:863][931]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.11.16:863][931]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.11.16:863][931]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.11.16:863][931]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.11.16:863][931]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.11.16:863][931]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.12.06:353][358]LogMaterialEditor: Saving and Compiling material M_gmtk_Floor
+[2024.08.18-17.12.06:866][358]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.12.06:909][358]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.12.06:909][358]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.12.06:909][358]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.12.06:909][358]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.12.06:909][358]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.12.06:910][358]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.12.06:910][358]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.12.06:910][358]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.12.06:910][358]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.12.06:910][358]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.12.06:910][358]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.12.06:920][358]LogMaterial: Display: Missing cached shader map for material M_gmtk_Floor, compiling. 
+[2024.08.18-17.12.06:964][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.08.18-17.12.06:970][358]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 24
+[2024.08.18-17.12.06:970][358]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 22
+[2024.08.18-17.12.06:970][358]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 20
+[2024.08.18-17.12.06:970][358]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 18
+[2024.08.18-17.12.06:970][358]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 16
+[2024.08.18-17.12.06:976][358]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2024.08.18-17.12.07:521][358]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 16
+[2024.08.18-17.12.08:031][358]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 15
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 14
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 13
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 12
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 11
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 10
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 9
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 8
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 7
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 6
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 5
+[2024.08.18-17.12.08:032][358]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 4
+[2024.08.18-17.12.08:054][358]TextureStreamingBuild: Display: Compiling optional shaders took 1.083 seconds.
+[2024.08.18-17.12.08:098][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.08.18-17.12.08:119][358]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.12.08:750][358]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 2
+[2024.08.18-17.12.08:750][358]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 1
+[2024.08.18-17.12.08:909][358]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/M_gmtk_Floor3F6576AE4897D0B3A2D8E29078D8B2DB.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Floor.uasset'
+[2024.08.18-17.12.08:933][358]AssetCheck: New page: Asset Save: M_gmtk_Floor
+[2024.08.18-17.12.08:933][358]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Floor.M_gmtk_Floor
+[2024.08.18-17.12.08:936][358]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.12.08:936][358]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.12.08:936][358]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.12.08:936][358]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.12.08:936][358]MaterialEditorStats: Texture samplers: 4/16
+[2024.08.18-17.12.08:936][358]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.12.08:936][358]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.12.42:338][240]LogMaterial: Display: Missing cached shader map for material M_gmtk_Floor1, compiling. 
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 24
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 22
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 20
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 18
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 16
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 14
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 12
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 10
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 8
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 6
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 4
+[2024.08.18-17.12.42:356][241]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 2
+[2024.08.18-17.12.48:183][540]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/M_gmtk_Wall708C2D2D4D5717685FC8D5A5FD24AD90.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Wall.uasset'
+[2024.08.18-17.12.48:294][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.18-17.12.48:339][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.08.18-17.12.48:350][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.08.18-17.12.48:369][540]AssetCheck: New page: Asset Save: M_gmtk_Wall
+[2024.08.18-17.12.48:369][540]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Wall.M_gmtk_Wall
+[2024.08.18-17.12.49:861][623]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Wall.M_gmtk_Wall
+[2024.08.18-17.12.49:864][623]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.12.49:962][623]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.12.49:970][623]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.12.49:986][623]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.12.49:986][623]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.08.18-17.12.50:032][623]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 4
+[2024.08.18-17.12.50:032][623]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 3
+[2024.08.18-17.12.50:032][623]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 2
+[2024.08.18-17.12.50:032][623]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 1
+[2024.08.18-17.12.51:472][673]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.12.51:472][673]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.12.51:472][673]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.12.51:472][673]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.12.51:472][673]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.12.51:472][673]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.12.51:472][673]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.12.54:948][878]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.12.54:971][879]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.12.55:918][909]MaterialEditorStats: Base pass shader: 117 instructions
+[2024.08.18-17.12.55:918][909]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2024.08.18-17.12.55:918][909]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2024.08.18-17.12.55:918][909]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2024.08.18-17.12.55:918][909]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.18-17.13.05:906][472]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.05:913][472]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.08.18-17.13.05:919][472]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 15
+[2024.08.18-17.13.05:919][472]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 14
+[2024.08.18-17.13.05:919][472]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 13
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 12
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 11
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 10
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 9
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 8
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 7
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 6
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 5
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 4
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 3
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 2
+[2024.08.18-17.13.05:921][472]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 1
+[2024.08.18-17.13.05:926][472]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.08.18-17.13.05:957][473]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 4
+[2024.08.18-17.13.06:794][488]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 3
+[2024.08.18-17.13.06:794][488]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.08.18-17.13.06:794][488]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.13.07:870][537]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.13.07:885][537]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.13.07:885][537]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.08.18-17.13.07:928][537]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 4
+[2024.08.18-17.13.07:928][537]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 3
+[2024.08.18-17.13.07:928][537]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 2
+[2024.08.18-17.13.07:928][537]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 1
+[2024.08.18-17.13.09:034][565]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.13.09:034][565]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.13.09:034][565]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.13.09:034][565]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.13.09:034][565]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.13.09:034][565]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.13.09:034][565]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.13.21:922][320]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.13.21:934][320]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.13.22:912][353]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.13.22:912][353]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.13.22:912][353]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.13.22:912][353]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.13.22:912][353]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.13.22:912][353]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.13.22:912][353]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.13.25:099][482]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.13.25:120][483]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.13.26:082][518]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.13.26:083][518]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.13.26:083][518]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.13.26:083][518]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.13.26:083][518]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.13.26:083][518]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.13.26:083][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.13.29:924][746]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.13.29:943][747]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.13.30:902][778]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.13.30:902][778]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.13.30:902][778]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.13.30:902][778]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.13.30:902][778]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.13.30:902][778]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.13.30:902][778]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.13.38:862][246]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.13.38:869][246]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.13.38:870][246]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.13.39:839][275]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.13.39:839][275]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.13.39:839][275]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.13.39:839][275]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.13.39:839][275]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.13.39:839][275]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.13.39:839][275]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.13.50:103][868]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.13.50:109][868]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.13.50:109][868]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.13.50:134][869]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 11
+[2024.08.18-17.13.50:134][869]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 10
+[2024.08.18-17.13.50:134][869]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 9
+[2024.08.18-17.13.50:134][869]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 8
+[2024.08.18-17.13.50:134][869]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 7
+[2024.08.18-17.13.50:927][888]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.08.18-17.13.50:927][888]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 5
+[2024.08.18-17.13.50:975][889]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.13.51:186][894]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 3
+[2024.08.18-17.13.51:233][895]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 2
+[2024.08.18-17.13.51:233][895]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 1
+[2024.08.18-17.13.51:979][922]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.13.51:979][922]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.13.51:979][922]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.13.51:979][922]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.13.51:979][922]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.13.51:979][922]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.13.51:979][922]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.09:974][984]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.09:994][985]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.10:980][ 17]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.14.10:980][ 17]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.14.10:980][ 17]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.14.10:980][ 17]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.10:980][ 17]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.14.10:980][ 17]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.10:980][ 17]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.15:721][299]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.15:739][300]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.16:746][332]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.14.16:746][332]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.14.16:746][332]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.14.16:746][332]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.16:746][332]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.14.16:746][332]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.16:746][332]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.16:754][332]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2024.08.18-17.14.16:774][334]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 4
+[2024.08.18-17.14.16:774][334]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 3
+[2024.08.18-17.14.16:774][334]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 2
+[2024.08.18-17.14.16:774][334]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 1
+[2024.08.18-17.14.22:885][686]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.22:909][687]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.22:910][687]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.23:898][721]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.14.23:898][721]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.14.23:898][721]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.14.23:898][721]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.23:898][721]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.14.23:898][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.23:898][721]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.24:635][765]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.24:657][766]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.25:637][796]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.14.25:637][796]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.14.25:637][796]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.14.25:637][796]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.25:637][796]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.14.25:637][796]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.25:637][796]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.28:065][936]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.28:084][937]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.28:085][937]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.29:035][968]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.14.29:036][968]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.14.29:036][968]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.14.29:036][968]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.29:036][968]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.14.29:036][968]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.29:036][968]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.32:266][156]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.32:290][157]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.32:291][157]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.32:291][157]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.32:291][157]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.33:328][194]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.14.33:328][194]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.14.33:328][194]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.14.33:328][194]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.33:328][194]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.14.33:329][194]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.33:329][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.39:682][570]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.39:688][570]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.39:702][571]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.40:684][604]MaterialEditorStats: Base pass shader: 113 instructions
+[2024.08.18-17.14.40:684][604]MaterialEditorStats: Base pass shader with Surface Lightmap: 134 instructions
+[2024.08.18-17.14.40:684][604]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2024.08.18-17.14.40:684][604]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.40:684][604]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.14.40:685][604]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.40:685][604]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.14.45:729][899]LogMaterialEditor: Saving and Compiling material M_gmtk_Wall
+[2024.08.18-17.14.46:149][899]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.46:179][899]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.14.46:180][899]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.14.46:210][899]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.14.46:245][899]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 24
+[2024.08.18-17.14.46:245][899]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 22
+[2024.08.18-17.14.46:245][899]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 20
+[2024.08.18-17.14.46:245][899]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 18
+[2024.08.18-17.14.46:245][899]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 16
+[2024.08.18-17.14.46:264][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.08.18-17.14.46:275][899]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2024.08.18-17.14.46:819][899]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 16
+[2024.08.18-17.14.46:819][899]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 15
+[2024.08.18-17.14.46:819][899]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 14
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 13
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 12
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 11
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 10
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 9
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 7
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 5
+[2024.08.18-17.14.47:158][899]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 4
+[2024.08.18-17.14.47:177][899]TextureStreamingBuild: Display: Compiling optional shaders took 0.907 seconds.
+[2024.08.18-17.14.47:200][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.08.18-17.14.47:850][899]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 3
+[2024.08.18-17.14.47:850][899]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.08.18-17.14.47:850][899]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 1
+[2024.08.18-17.14.48:050][899]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/M_gmtk_WallF39B204F41E1F9B16C421D8529327CAF.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Wall.uasset'
+[2024.08.18-17.14.48:078][899]AssetCheck: New page: Asset Save: M_gmtk_Wall
+[2024.08.18-17.14.48:078][899]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/M_gmtk_Wall.M_gmtk_Wall
+[2024.08.18-17.14.48:082][899]MaterialEditorStats: Base pass shader: 113 instructions
+[2024.08.18-17.14.48:082][899]MaterialEditorStats: Base pass shader with Surface Lightmap: 134 instructions
+[2024.08.18-17.14.48:082][899]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2024.08.18-17.14.48:082][899]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.14.48:082][899]MaterialEditorStats: Texture samplers: 4/16
+[2024.08.18-17.14.48:082][899]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.14.48:082][899]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.15.27:239][178]Cmd: TRANSACTION UNDO
+[2024.08.18-17.15.27:239][178]LogEditorTransaction: Undo Create Actors
+[2024.08.18-17.15.27:243][178]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.15.27:250][178]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 11
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 10
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 9
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 8
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 7
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 6
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 5
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 4
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 3
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 2
+[2024.08.18-17.15.27:255][178]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 1
+[2024.08.18-17.15.27:363][181]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 11
+[2024.08.18-17.15.27:363][181]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 10
+[2024.08.18-17.15.27:363][181]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 9
+[2024.08.18-17.15.27:363][181]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 8
+[2024.08.18-17.15.27:363][181]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 7
+[2024.08.18-17.15.27:579][186]Cmd: TRANSACTION UNDO
+[2024.08.18-17.15.27:579][186]LogEditorTransaction: Undo Create Actors
+[2024.08.18-17.15.27:582][186]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.15.27:594][186]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.15.27:860][191]Cmd: TRANSACTION UNDO
+[2024.08.18-17.15.27:860][191]LogEditorTransaction: Undo Create Actors
+[2024.08.18-17.15.27:874][191]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.15.27:894][191]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.15.28:328][204]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 22
+[2024.08.18-17.15.28:408][207]Cmd: TRANSACTION UNDO
+[2024.08.18-17.15.28:408][207]LogEditorTransaction: Undo Create Actors
+[2024.08.18-17.15.28:417][207]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.15.28:433][207]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.15.28:476][208]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 22
+[2024.08.18-17.15.28:603][213]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 21
+[2024.08.18-17.15.28:652][215]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 20
+[2024.08.18-17.15.28:677][216]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 19
+[2024.08.18-17.15.28:794][221]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 18
+[2024.08.18-17.15.28:794][221]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 17
+[2024.08.18-17.15.28:815][222]Cmd: TRANSACTION UNDO
+[2024.08.18-17.15.28:816][222]LogEditorTransaction: Undo Create Actors
+[2024.08.18-17.15.28:824][222]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 11
+[2024.08.18-17.15.28:824][222]LogMaterial: Display: Missing cached shader map for material gmtkFloor, compiling. 
+[2024.08.18-17.15.28:841][222]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 11
+[2024.08.18-17.15.28:841][222]LogMaterial: Display: Missing cached shader map for material M_gmtk_Wall, compiling. 
+[2024.08.18-17.15.28:882][223]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 21
+[2024.08.18-17.15.28:910][224]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 20
+[2024.08.18-17.15.28:937][225]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 19
+[2024.08.18-17.15.28:937][225]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 18
+[2024.08.18-17.15.29:018][228]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 17
+[2024.08.18-17.15.29:018][228]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 16
+[2024.08.18-17.15.29:141][232]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 15
+[2024.08.18-17.15.29:610][246]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 14
+[2024.08.18-17.15.29:638][247]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 13
+[2024.08.18-17.15.29:806][253]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 12
+[2024.08.18-17.15.29:854][255]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 11
+[2024.08.18-17.15.29:930][258]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 10
+[2024.08.18-17.15.29:984][260]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 9
+[2024.08.18-17.15.30:038][262]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 8
+[2024.08.18-17.15.30:065][263]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 7
+[2024.08.18-17.15.30:092][264]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 6
+[2024.08.18-17.15.30:120][265]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 5
+[2024.08.18-17.15.30:145][266]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 4
+[2024.08.18-17.15.30:268][271]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 3
+[2024.08.18-17.15.30:361][274]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 2
+[2024.08.18-17.15.30:361][274]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 1
+[2024.08.18-17.15.30:919][284]MaterialEditorStats: Base pass shader: 120 instructions
+[2024.08.18-17.15.30:919][284]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2024.08.18-17.15.30:919][284]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2024.08.18-17.15.30:920][284]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.15.30:920][284]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.15.30:920][284]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.15.30:921][284]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.15.31:168][298]MaterialEditorStats: Base pass shader: 113 instructions
+[2024.08.18-17.15.31:168][298]MaterialEditorStats: Base pass shader with Surface Lightmap: 134 instructions
+[2024.08.18-17.15.31:168][298]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2024.08.18-17.15.31:168][298]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2024.08.18-17.15.31:168][298]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.18-17.15.31:168][298]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.08.18-17.15.31:168][298]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.18-17.15.42:565][958]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight6)
+[2024.08.18-17.16.42:991][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.08.18-17.16.43:066][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.08.18-17.16.43:078][500]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv31C2E63F41E2FA819652418BB5C45517.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.18-17.16.43:090][500]LogFileHelpers: Saving map 'TutorialLv' took 0.036
+[2024.08.18-17.16.43:100][500]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltDataFB1E82AE483BE1295447AEA568AB7DB1.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.18-17.16.43:133][500]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.18-17.16.43:133][500]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.18-17.16.43:133][500]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.18-17.17.09:003][555]LogEditorViewport: Clicking on Actor (LMB): PointLight (LightOnDoor)
+[2024.08.18-17.17.10:948][668]LogEditorViewport: Clicking Background
+[2024.08.18-17.17.12:115][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (door1)
+[2024.08.18-17.17.18:745][123]LogEditorViewport: Clicking Background
+[2024.08.18-17.17.20:964][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (door1)
+[2024.08.18-17.17.28:835][711]LogEditorViewport: Clicking Background
+[2024.08.18-17.18.54:380][833]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight6)
+[2024.08.18-17.18.56:457][956]Cmd: EDIT COPY
+[2024.08.18-17.18.56:795][976]Cmd: EDIT PASTE
+[2024.08.18-17.19.35:415][267]LogEditorViewport: Clicking on Actor (LMB): PointLight (TowerLight2)
+[2024.08.18-17.19.38:277][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2024.08.18-17.19.44:313][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.08.18-17.19.44:333][792]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLvFDEFC6FA46C06FEF17653F9E565F23D2.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.18-17.19.44:352][792]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltDataFDA32522406D16C18FD9A3AB343AE1B2.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.18-17.19.44:374][792]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.18-17.19.44:374][792]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.18-17.19.44:374][792]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.18-17.21.33:897][887]LogEditorViewport: Clicking Background
+[2024.08.18-17.27.00:271][876]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
