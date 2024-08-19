@@ -24,6 +24,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* mesh;
+
+	UPROPERTY(EditDefaultsOnly)
+	bool bIsGrowObject;
 	
 public:	
 	// Called every frame
@@ -33,7 +36,8 @@ public:
 
 	virtual void DropObject_Implementation() override;
 
-	UFUNCTION(BlueprintImplementableEvent)
-	void UsePickupObject(AActor* recipientActor);
+	
+
+	FORCEINLINE bool GetIsGrowObject() const {return bIsGrowObject;}
 	
 };

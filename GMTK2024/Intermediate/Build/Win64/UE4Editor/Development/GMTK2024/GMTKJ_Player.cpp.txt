@@ -11,6 +11,8 @@ D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public\GMTKJam_Pi
 D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public\GrabObjectInterface.h
 D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GrabObjectInterface.generated.h
 D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GMTKJam_PickupBase.generated.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public\GrowShrinkInterface.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GrowShrinkInterface.generated.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMeshSocket.h

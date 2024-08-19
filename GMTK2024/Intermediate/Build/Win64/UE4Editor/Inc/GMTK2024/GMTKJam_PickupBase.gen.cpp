@@ -17,47 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PickupBase() {}
 	GMTK2024_API UClass* Z_Construct_UClass_AGMTKJam_PickupBase();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_GMTK2024();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	GMTK2024_API UClass* Z_Construct_UClass_UGrabObjectInterface_NoRegister();
 // End Cross Module References
-	static FName NAME_AGMTKJam_PickupBase_UsePickupObject = FName(TEXT("UsePickupObject"));
-	void AGMTKJam_PickupBase::UsePickupObject(AActor* recipientActor)
-	{
-		GMTKJam_PickupBase_eventUsePickupObject_Parms Parms;
-		Parms.recipientActor=recipientActor;
-		ProcessEvent(FindFunctionChecked(NAME_AGMTKJam_PickupBase_UsePickupObject),&Parms);
-	}
 	void AGMTKJam_PickupBase::StaticRegisterNativesAGMTKJam_PickupBase()
 	{
-	}
-	struct Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics
-	{
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_recipientActor;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::NewProp_recipientActor = { "recipientActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GMTKJam_PickupBase_eventUsePickupObject_Parms, recipientActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::NewProp_recipientActor,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/GMTKJam_PickupBase.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGMTKJam_PickupBase, nullptr, "UsePickupObject", nullptr, nullptr, sizeof(GMTKJam_PickupBase_eventUsePickupObject_Parms), Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGMTKJam_PickupBase_NoRegister()
 	{
@@ -66,10 +30,14 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PickupBase() {}
 	struct Z_Construct_UClass_AGMTKJam_PickupBase_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsGrowObject_MetaData[];
+#endif
+		static void NewProp_bIsGrowObject_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsGrowObject;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mesh_MetaData[];
 #endif
@@ -83,15 +51,23 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PickupBase() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_GMTK2024,
 	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_AGMTKJam_PickupBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AGMTKJam_PickupBase_UsePickupObject, "UsePickupObject" }, // 1534130166
-	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_PickupBase_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "GMTKJam_PickupBase.h" },
 		{ "ModuleRelativePath", "Public/GMTKJam_PickupBase.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_bIsGrowObject_MetaData[] = {
+		{ "Category", "GMTKJam_PickupBase" },
+		{ "ModuleRelativePath", "Public/GMTKJam_PickupBase.h" },
+	};
+#endif
+	void Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_bIsGrowObject_SetBit(void* Obj)
+	{
+		((AGMTKJam_PickupBase*)Obj)->bIsGrowObject = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_bIsGrowObject = { "bIsGrowObject", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AGMTKJam_PickupBase), &Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_bIsGrowObject_SetBit, METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_bIsGrowObject_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_bIsGrowObject_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_mesh_MetaData[] = {
 		{ "Category", "GMTKJam_PickupBase" },
@@ -101,6 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PickupBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_mesh = { "mesh", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJam_PickupBase, mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGMTKJam_PickupBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_bIsGrowObject,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_PickupBase_Statics::NewProp_mesh,
 	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AGMTKJam_PickupBase_Statics::InterfaceParams[] = {
@@ -114,11 +91,11 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PickupBase() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_AGMTKJam_PickupBase_Statics::PropPointers,
 		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
-		UE_ARRAY_COUNT(FuncInfo),
+		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_PickupBase_Statics::PropPointers),
 		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
@@ -133,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PickupBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGMTKJam_PickupBase, 1127096717);
+	IMPLEMENT_CLASS(AGMTKJam_PickupBase, 4136379877);
 	template<> GMTK2024_API UClass* StaticClass<AGMTKJam_PickupBase>()
 	{
 		return AGMTKJam_PickupBase::StaticClass();

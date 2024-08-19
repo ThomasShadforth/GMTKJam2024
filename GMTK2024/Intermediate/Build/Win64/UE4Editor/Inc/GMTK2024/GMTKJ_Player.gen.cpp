@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJ_Player() {}
 	GMTK2024_API UClass* Z_Construct_UClass_AGMTKJ_Player();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_GMTK2024();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -33,6 +34,11 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJ_Player() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sizeTiers_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_sizeTiers;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_sizeTiers_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_camera_MetaData[];
 #endif
@@ -64,6 +70,14 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJ_Player() {}
 		{ "ModuleRelativePath", "Public/GMTKJ_Player.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_sizeTiers_MetaData[] = {
+		{ "Category", "GMTKJ_Player" },
+		{ "ModuleRelativePath", "Public/GMTKJ_Player.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_sizeTiers = { "sizeTiers", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJ_Player, sizeTiers), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_sizeTiers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_sizeTiers_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_sizeTiers_Inner = { "sizeTiers", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_camera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -97,6 +111,8 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJ_Player() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_baseTurnRate = { "baseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJ_Player, baseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_baseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_baseTurnRate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGMTKJ_Player_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_sizeTiers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_sizeTiers_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_cameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJ_Player_Statics::NewProp_baseLookUpRate,
@@ -129,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJ_Player() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGMTKJ_Player, 4007936576);
+	IMPLEMENT_CLASS(AGMTKJ_Player, 2685348701);
 	template<> GMTK2024_API UClass* StaticClass<AGMTKJ_Player>()
 	{
 		return AGMTKJ_Player::StaticClass();

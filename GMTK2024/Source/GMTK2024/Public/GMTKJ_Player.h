@@ -52,6 +52,12 @@ protected:
 	void DropObject();
 
 	void UseObject();
+
+	void GrowShrinkPlayer(bool bShouldGrow);
+
+	void GrowShrinkLevelObject(AActor* levelObject, bool bShouldGrow);
+
+	AActor* GetLevelObject();
 	
 public:	
 	// Called every frame
@@ -68,11 +74,16 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* camera;
 
+	UPROPERTY(EditDefaultsOnly)
+	TArray<FVector> sizeTiers;
+	
 	AGMTKJam_LevelCameraSystem* levelCamera;
 
 	bool bIsHoldingObject;
 
 	AActor* heldObject;
+
+	int sizeTierIndex;
 	
 public:
 	

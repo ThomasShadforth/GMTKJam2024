@@ -60,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGMTKJ_Player); \
 
 #define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__cameraBoom() { return STRUCT_OFFSET(AGMTKJ_Player, cameraBoom); } \
-	FORCEINLINE static uint32 __PPO__camera() { return STRUCT_OFFSET(AGMTKJ_Player, camera); }
+	FORCEINLINE static uint32 __PPO__camera() { return STRUCT_OFFSET(AGMTKJ_Player, camera); } \
+	FORCEINLINE static uint32 __PPO__sizeTiers() { return STRUCT_OFFSET(AGMTKJ_Player, sizeTiers); }
 
 
 #define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_13_PROLOG

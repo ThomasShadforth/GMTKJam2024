@@ -8,7 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
 #ifdef GMTK2024_GMTKJam_PickupBase_generated_h
 #error "GMTKJam_PickupBase.generated.h already included, missing '#pragma once' in GMTKJam_PickupBase.h"
 #endif
@@ -17,14 +16,6 @@ class AActor;
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_SPARSE_DATA
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_RPC_WRAPPERS
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_EVENT_PARMS \
-	struct GMTKJam_PickupBase_eventUsePickupObject_Parms \
-	{ \
-		AActor* recipientActor; \
-	};
-
-
-#define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_CALLBACK_WRAPPERS
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGMTKJam_PickupBase(); \
@@ -70,20 +61,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGMTKJam_PickupBase); \
 
 
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__mesh() { return STRUCT_OFFSET(AGMTKJam_PickupBase, mesh); }
+	FORCEINLINE static uint32 __PPO__mesh() { return STRUCT_OFFSET(AGMTKJam_PickupBase, mesh); } \
+	FORCEINLINE static uint32 __PPO__bIsGrowObject() { return STRUCT_OFFSET(AGMTKJam_PickupBase, bIsGrowObject); }
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_10_PROLOG \
-	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_EVENT_PARMS
-
-
+#define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_10_PROLOG
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_PRIVATE_PROPERTY_OFFSET \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_SPARSE_DATA \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_RPC_WRAPPERS \
-	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_CALLBACK_WRAPPERS \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_INCLASS \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_STANDARD_CONSTRUCTORS \
 public: \
@@ -96,7 +84,6 @@ public: \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_PRIVATE_PROPERTY_OFFSET \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_SPARSE_DATA \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_CALLBACK_WRAPPERS \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_INCLASS_NO_PURE_DECLS \
 	GMTK2024_Source_GMTK2024_Public_GMTKJam_PickupBase_h_13_ENHANCED_CONSTRUCTORS \
 private: \
