@@ -1120,3 +1120,171 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.08.19-17.56.04:665][ 54]AssetCheck: New page: Asset Save: multiple assets
 [2024.08.19-17.56.04:665][ 54]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
 [2024.08.19-17.56.04:665][ 54]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.19-18.06.14:325][918]LogActorFactory: Actor Factory created Cube
+[2024.08.19-18.06.15:078][963]LogActorFactory: Actor Factory created Cube
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B03E99E02-45E8-7E96-F2E2-778C3B323CDB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: request failed, libcurl error: 0 (No error)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x165d88dff70 [can pipeline])
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.213.166.100) port 443 (#8))
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 8 (Closing connection 8)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: 00000165AB33B900: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.19-18.06.45:958][708]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B03E99E02-45E8-7E96-F2E2-778C3B323CDB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.19-18.06.51:342][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.19-18.06.51:366][723]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto148DBDCE34CD9A0CB2B8BC0BB93879791.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto1.umap'
+[2024.08.19-18.06.51:367][723]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.037
+[2024.08.19-18.06.51:367][723]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.037
+[2024.08.19-18.08.19:838][ 69]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2024.08.19-18.08.21:228][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2024.08.19-18.08.22:482][215]Cmd: DELETE
+[2024.08.19-18.08.22:482][215]Cmd: ACTOR DELETE
+[2024.08.19-18.08.22:484][215]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.19-18.08.22:498][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2024.08.19-18.08.22:500][215]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.08.19-18.08.37:956][ 66]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.08.19-18.08.57:841][927]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/MaxiVault/InvisWall.InvisWall
+[2024.08.19-18.08.57:968][927]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2024.08.19-18.09.06:290][118]LogSlate: Took 0.000500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.08.19-18.09.41:547][641]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/InvisWallD7CAD0BE4BB6AD50A69E17828B37DF3F.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/InvisWall.uasset'
+[2024.08.19-18.09.41:561][641]AssetCheck: New page: Asset Save: InvisWall
+[2024.08.19-18.09.41:561][641]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/MaxiVault/InvisWall.InvisWall
+[2024.08.19-18.10.15:628][180]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/InvisWallB31C01E14BF8588AF71D2F96D84BB857.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/InvisWall.uasset'
+[2024.08.19-18.10.15:641][180]AssetCheck: New page: Asset Save: InvisWall
+[2024.08.19-18.10.15:641][180]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/MaxiVault/InvisWall.InvisWall
+[2024.08.19-18.10.18:346][342]LogSlate: Window 'InvisWall' being destroyed
+[2024.08.19-18.10.18:355][342]LogSlate: Window 'InvisWall' being destroyed
+[2024.08.19-18.10.18:391][342]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.08.19-18.10.18:391][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-18.10.55:342][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.08.19-18.10.55:364][551]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv1F42F7D24C6E87D5FCBBC088D941FF13.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.19-18.10.55:390][551]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltDataA9DEA4AE40A6F07AB5C3669551AD3DB9.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.19-18.10.55:408][551]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.19-18.10.55:408][551]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.19-18.10.55:408][551]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.19-18.10.56:259][602]LogTemp: Repeating last play command: Selected Viewport
+[2024.08.19-18.10.56:271][602]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.08.19-18.10.56:271][602]LogPlayLevel: [PlayLevel] Compiling InvisWall before play...
+[2024.08.19-18.10.56:301][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.08.19-18.10.56:302][602]LogPlayLevel: PlayLevel: Blueprint regeneration took 31 ms (1 blueprints)
+[2024.08.19-18.10.56:302][602]PIE: New page: PIE session: TutorialLv (Aug 19, 2024, 8:10:56 PM)
+[2024.08.19-18.10.56:302][602]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv
+[2024.08.19-18.10.56:305][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002083s)
+[2024.08.19-18.10.56:305][602]LogAIModule: Creating AISystem for world TutorialLv
+[2024.08.19-18.10.56:305][602]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000165FF75F600), frame # 28602
+[2024.08.19-18.10.56:305][602]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000166482E0400), frame # 28602
+[2024.08.19-18.10.56:305][602]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2024.08.19-18.10.56:305][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv to /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv.TutorialLv (0.002929s)
+[2024.08.19-18.10.56:322][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.08.19-18.10.56:323][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.19-18.10.56:323][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.19-18.10.56:323][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.19-18.10.56:323][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.19-18.10.56:323][602]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.19-18.10.56:323][602]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.19-18.10.56:323][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.19-18.10.56:323][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.19-18.10.56:324][602]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.19-18.10.56:324][602]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.19-18.10.56:328][602]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.19-18.10.56:328][602]LogAudioMixer: Display: 1: FrontRight
+[2024.08.19-18.10.56:341][602]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2024.08.19-18.10.56:341][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.19-18.10.56:341][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.19-18.10.56:341][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.19-18.10.56:342][602]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.19-18.10.56:349][602]LogInit: FAudioDevice initialized.
+[2024.08.19-18.10.56:355][602]LogLoad: Game class is 'GMTK2024GameMode'
+[2024.08.19-18.10.56:356][602]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv.TutorialLv up for play (max tick rate 60) at 2024.08.19-19.10.56
+[2024.08.19-18.10.56:357][602]LogWorld: Bringing up level for play took: 0.001144
+[2024.08.19-18.10.56:357][602]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2024.08.19-18.10.56:359][602]PIE: Server logged in
+[2024.08.19-18.10.56:360][602]PIE: Play in editor total start time 0.091 seconds.
+[2024.08.19-18.11.07:804][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.19-18.11.07:804][287]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv
+[2024.08.19-18.11.07:804][287]LogWorld: UWorld::CleanupWorld for TutorialLv, bSessionEnded=true, bCleanupResources=true
+[2024.08.19-18.11.07:804][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-18.11.07:814][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.19-18.11.07:816][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-18.11.07:831][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.19-18.11.07:860][287]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000166482E0400), frame # 29287
+[2024.08.19-18.11.07:860][287]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000165FF75F600), frame # 29287
+[2024.08.19-18.11.07:861][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.08.19-18.11.07:884][288]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.08.19-18.11.28:918][548]Cmd: EDIT COPY
+[2024.08.19-18.11.29:252][568]Cmd: EDIT PASTE
+[2024.08.19-18.11.40:912][267]Cmd: EDIT PASTE
+[2024.08.19-18.12.23:613][825]Cmd: EDIT COPY
+[2024.08.19-18.12.24:112][855]Cmd: EDIT PASTE
+[2024.08.19-18.12.49:111][353]Cmd: EDIT PASTE
+[2024.08.19-18.13.03:362][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane8)
+[2024.08.19-18.13.04:300][262]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2024.08.19-18.13.04:331][262]LogSlate: Took 0.003572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.08.19-18.13.05:652][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.08.19-18.13.05:679][340]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLvF1B5D91C4D48841582DD03B561666E19.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.19-18.13.05:706][340]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltData486581BB425DF07C7D9E4580619CE65D.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.19-18.13.05:726][340]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.19-18.13.05:726][340]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.19-18.13.05:726][340]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.19-18.13.15:340][917]Cmd: EDIT COPY
+[2024.08.19-18.13.15:674][937]Cmd: EDIT PASTE
+[2024.08.19-18.13.49:847][985]LogEditorViewport: Clicking on Actor (LMB): InvisWall_C (InvisWall2)
+[2024.08.19-18.14.09:781][180]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2024.08.19-18.14.10:218][205]LogEditorViewport: Clicking on Actor (LMB): InvisWall_C (InvisWall)
+[2024.08.19-18.14.15:981][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.08.19-18.14.16:004][546]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv0155CA0248237A863A5609A2BB6D7A18.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.19-18.14.16:030][546]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltData7D23E1F34190715866FCBB88BB99B440.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.19-18.14.16:051][546]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.19-18.14.16:051][546]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.19-18.14.16:051][546]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.19-18.14.17:161][613]LogTemp: Repeating last play command: Selected Viewport
+[2024.08.19-18.14.17:171][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.19-18.14.17:171][613]PIE: New page: PIE session: TutorialLv (Aug 19, 2024, 8:14:17 PM)
+[2024.08.19-18.14.17:171][613]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv
+[2024.08.19-18.14.17:173][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002462s)
+[2024.08.19-18.14.17:174][613]LogAIModule: Creating AISystem for world TutorialLv
+[2024.08.19-18.14.17:174][613]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000166338FF000), frame # 40613
+[2024.08.19-18.14.17:174][613]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001659A009440), frame # 40613
+[2024.08.19-18.14.17:174][613]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2024.08.19-18.14.17:174][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv to /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv.TutorialLv (0.003323s)
+[2024.08.19-18.14.17:193][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.19-18.14.17:195][613]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.19-18.14.17:195][613]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.19-18.14.17:195][613]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.19-18.14.17:200][613]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.19-18.14.17:200][613]LogAudioMixer: Display: 1: FrontRight
+[2024.08.19-18.14.17:211][613]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2024.08.19-18.14.17:211][613]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.19-18.14.17:211][613]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.19-18.14.17:211][613]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.19-18.14.17:212][613]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.19-18.14.17:220][613]LogInit: FAudioDevice initialized.
+[2024.08.19-18.14.17:227][613]LogLoad: Game class is 'GMTK2024GameMode'
+[2024.08.19-18.14.17:228][613]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv.TutorialLv up for play (max tick rate 60) at 2024.08.19-19.14.17
+[2024.08.19-18.14.17:228][613]LogWorld: Bringing up level for play took: 0.001174
+[2024.08.19-18.14.17:229][613]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2024.08.19-18.14.17:231][613]PIE: Server logged in
+[2024.08.19-18.14.17:232][613]PIE: Play in editor total start time 0.063 seconds.
+[2024.08.19-18.14.40:818][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.19-18.14.40:818][ 26]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/Maxi/UEDPIE_0_TutorialLv
+[2024.08.19-18.14.40:818][ 26]LogWorld: UWorld::CleanupWorld for TutorialLv, bSessionEnded=true, bCleanupResources=true
+[2024.08.19-18.14.40:820][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-18.14.40:831][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.19-18.14.40:834][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-18.14.40:850][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.19-18.14.40:863][ 26]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001659A009440), frame # 42026
+[2024.08.19-18.14.40:863][ 26]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000166338FF000), frame # 42026
+[2024.08.19-18.14.40:864][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.08.19-18.14.40:884][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_12
