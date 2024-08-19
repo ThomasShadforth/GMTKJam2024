@@ -2261,3 +2261,193 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.08.19-16.24.01:176][313]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/MaxiVault/GoodSky/Maps/Level_GoodSky_Showcase.Level_GoodSky_Showcase
 [2024.08.19-16.24.01:176][313]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/GoodSky/Source/Materials/Light_Function/M_GoodSky_StormLightning_LightFunction.M_GoodSky_StormLightning_LightFunction
 [2024.08.19-16.24.31:516][571]LogSlate: Took 0.002767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: request failed, libcurl error: 0 (No error)
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a51cda7f70 [can pipeline])
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 1 (Re-using existing connection! (#61) with host datarouter.ol.epicgames.com)
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.5.153.44) port 443 (#61))
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.19-16.28.40:661][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.19-16.28.40:662][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 8 (Closing connection 61)
+[2024.08.19-16.28.40:662][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.19-16.28.40:662][ 96]LogHttp: Warning: 000001A5C953B200: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.19-16.28.40:662][ 96]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.19-16.30.02:541][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube8)
+[2024.08.19-16.30.08:410][434]Cmd: DELETE
+[2024.08.19-16.30.08:411][434]Cmd: ACTOR DELETE
+[2024.08.19-16.30.08:451][434]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.19-16.30.08:494][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.08.19-16.30.08:497][434]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2024.08.19-16.30.08:941][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sphere2)
+[2024.08.19-16.30.09:026][465]Cmd: DELETE
+[2024.08.19-16.30.09:026][465]Cmd: ACTOR DELETE
+[2024.08.19-16.30.09:027][465]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.19-16.30.09:041][465]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.08.19-16.30.09:043][465]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.08.19-16.30.09:656][502]LogEditorViewport: Clicking on Actor (LMB): PointLight (DraftLight)
+[2024.08.19-16.30.10:931][577]Cmd: DELETE
+[2024.08.19-16.30.10:931][577]Cmd: ACTOR DELETE
+[2024.08.19-16.30.10:933][577]LogEditorActor: Deleted Actor: PointLight
+[2024.08.19-16.30.10:947][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.08.19-16.30.10:949][577]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2024.08.19-16.30.11:360][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube7)
+[2024.08.19-16.30.11:478][608]Cmd: DELETE
+[2024.08.19-16.30.11:478][608]Cmd: ACTOR DELETE
+[2024.08.19-16.30.11:480][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.19-16.30.11:496][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.08.19-16.30.11:497][608]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2024.08.19-16.30.11:879][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube10)
+[2024.08.19-16.30.11:962][635]Cmd: DELETE
+[2024.08.19-16.30.11:962][635]Cmd: ACTOR DELETE
+[2024.08.19-16.30.11:964][635]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.19-16.30.11:982][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.08.19-16.30.11:983][635]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2024.08.19-16.30.12:313][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube9)
+[2024.08.19-16.30.12:415][660]Cmd: DELETE
+[2024.08.19-16.30.12:415][660]Cmd: ACTOR DELETE
+[2024.08.19-16.30.12:416][660]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.19-16.30.12:429][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.08.19-16.30.12:431][660]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.08.19-16.30.12:910][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UnrealPrimitiveCube)
+[2024.08.19-16.30.13:010][694]Cmd: DELETE
+[2024.08.19-16.30.13:010][694]Cmd: ACTOR DELETE
+[2024.08.19-16.30.13:011][694]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.08.19-16.30.13:027][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.08.19-16.30.13:028][694]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.08.19-16.30.21:587][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.08.19-16.30.21:636][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.08.19-16.30.21:655][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv95A79C794E93C7BA0F859CAFA0CB20F1.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.19-16.30.21:673][207]LogFileHelpers: Saving map 'TutorialLv' took 0.057
+[2024.08.19-16.30.21:684][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltData93EEA82946D3A3A5C64C5DB661B402C4.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.19-16.30.21:701][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/grow_cube_Box00124EB3CBD4B03E0B59CA4688F15F0DF27.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Box001.uasset'
+[2024.08.19-16.30.21:706][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__18ACB3CAE646854CF918E7AE94EAFF2BB7.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/Material__18.uasset'
+[2024.08.19-16.30.21:711][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__3F1546BFC4983E0B0AE9C65939A22E0BC.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/Material__3.uasset'
+[2024.08.19-16.30.21:713][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Space_skyboxD581D9504F60328B679E10B474EE4A15.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Space_skybox.uasset'
+[2024.08.19-16.30.21:719][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__10001FCF78D45CD447DD5F221B6466E5D4E.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/Material__100.uasset'
+[2024.08.19-16.30.21:722][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__20CF2D14B4E662550185E4C8677278F3C.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/Material__2.uasset'
+[2024.08.19-16.30.21:725][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__33598F5114E19985DDC95CDB4D6FEC2F7.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/Material__3.uasset'
+[2024.08.19-16.30.21:728][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__18D6FD8A81488B68D6F29883877C285A09.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/Material__18.uasset'
+[2024.08.19-16.30.21:730][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__100817F4203454C5D8542BA3785E45E922F.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/Material__100.uasset'
+[2024.08.19-16.30.21:733][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__102B3A020184C0067566026BBB2F26D524C.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/Material__102.uasset'
+[2024.08.19-16.30.21:735][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__1366444046344739D094723B0ADDB2C81C5.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/Material__136.uasset'
+[2024.08.19-16.30.21:738][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Material__226F59C6A6E40B1FF024F269A9EB07CA1F6.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/Materials/Material__226.uasset'
+[2024.08.19-16.30.21:745][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/grow_cube_Cylinder00475AF8BCE468F4945815C4088A321DD52.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder004.uasset'
+[2024.08.19-16.30.21:751][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/grow_cube_Cylinder00168E76E3A48D0C787624004BA889C760D.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder001.uasset'
+[2024.08.19-16.30.21:758][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/grow_cube_Cylinder002A4CB5F0846850F017E6AB289B2CDE5C7.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder002.uasset'
+[2024.08.19-16.30.21:764][207]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/grow_cube_Cylinder003DB013F474889A42057619C9743C9FDDE.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder003.uasset'
+[2024.08.19-16.30.21:793][207]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Box001.grow_cube_Box001
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/FromNath/Material__18.Material__18
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/FromNath/Material__3.Material__3
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating TextureRenderTargetCube /Game/ThirdPersonCPP/MaxiVault/Space_skybox.Space_skybox
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/FromNath/Material__100.Material__100
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/Material__2.Material__2
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/Material__3.Material__3
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/Material__18.Material__18
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/Material__100.Material__100
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/Material__102.Material__102
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/Material__136.Material__136
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating Material /Game/ThirdPersonCPP/MaxiVault/Materials/Material__226.Material__226
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder004.grow_cube_Cylinder004
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder001.grow_cube_Cylinder001
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder002.grow_cube_Cylinder002
+[2024.08.19-16.30.21:793][207]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Cylinder003.grow_cube_Cylinder003
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: request failed, libcurl error: 0 (No error)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a51cda7f70 [can pipeline])
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 1 (Re-using existing connection! (#64) with host datarouter.ol.epicgames.com)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.82.234.152) port 443 (#64))
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 8 (Closing connection 64)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: 000001A58D856B00: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.19-16.36.40:813][126]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.19-16.37.23:737][534]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPersonCPP/MaxiVault/FromNath/grow_cube_Box001.grow_cube_Box001
+[2024.08.19-16.37.23:884][534]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.08.19-16.37.23:884][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-16.38.58:386][596]LogActorFactory: Actor Factory created locker1_uploads_files_2900809_locker
+[2024.08.19-16.39.00:395][716]LogActorFactory: Actor Factory created locker1_uploads_files_2900809_locker
+[2024.08.19-16.40.13:100][ 20]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (locker1_uploads_files_2900809_locker)
+[2024.08.19-16.40.18:625][335]Cmd: ACTOR BAKEPREPIVOT
+[2024.08.19-16.40.55:293][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.08.19-16.40.55:317][ 90]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto530CA6E83417BBF50DB7A8AB7F067FC49.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto5.umap'
+[2024.08.19-16.40.55:319][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.044
+[2024.08.19-16.40.55:319][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.044
+[2024.08.19-16.42.47:020][391]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2024.08.19-16.43.02:864][338]Cmd: EDIT COPY
+[2024.08.19-16.43.03:864][398]Cmd: EDIT PASTE
+[2024.08.19-16.46.34:260][ 99]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2024.08.19-16.46.34:764][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (locker2)
+[2024.08.19-16.46.35:223][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (locker1)
+[2024.08.19-16.46.35:863][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (locker2)
+[2024.08.19-16.46.37:392][281]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (locker1)
+[2024.08.19-16.46.38:230][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (locker2)
+[2024.08.19-16.46.45:452][753]Cmd: EDIT COPY
+[2024.08.19-16.46.45:786][773]Cmd: EDIT PASTE
+[2024.08.19-16.46.49:345][985]Cmd: EDIT PASTE
+[2024.08.19-16.46.52:829][193]Cmd: EDIT PASTE
+[2024.08.19-16.47.14:711][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (locker4)
+[2024.08.19-17.01.09:696][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.19-17.01.09:732][836]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto61D07849641AE840C898DB19F953C45A3.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto6.umap'
+[2024.08.19-17.01.09:734][836]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.049
+[2024.08.19-17.01.09:734][836]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
+[2024.08.19-17.01.54:096][143]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2024.08.19-17.02.15:717][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.08.19-17.02.15:758][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.08.19-17.02.15:774][517]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv91BBA43E4EEF16FAFC54B8941ABCDAB5.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv.umap'
+[2024.08.19-17.02.15:786][517]LogFileHelpers: Saving map 'TutorialLv' took 0.044
+[2024.08.19-17.02.15:796][517]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_BuiltData7769795143892F3D88107D9D1E9A7E76.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Content/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.uasset'
+[2024.08.19-17.02.15:812][517]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.19-17.02.15:812][517]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv.TutorialLv
+[2024.08.19-17.02.15:812][517]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_BuiltData.TutorialLv_BuiltData
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: request failed, libcurl error: 0 (No error)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a51cda7f70 [can pipeline])
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 1 (Re-using existing connection! (#76) with host datarouter.ol.epicgames.com)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.206.10) port 443 (#76))
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 8 (Closing connection 76)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: 000001A5C837B200: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.19-17.03.40:833][866]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.19-17.05.07:755][492]LogSlate: Window 'Message Log' being destroyed
+[2024.08.19-17.05.07:767][492]LogSlate: Window 'Message Log' being destroyed
+[2024.08.19-17.09.40:832][134]LogHttp: Warning: 000001A5CDD32400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: request failed, libcurl error: 0 (No error)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a51cda7f70 [can pipeline])
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 1 (Re-using existing connection! (#78) with host datarouter.ol.epicgames.com)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.44.177.208) port 443 (#78))
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 6 (Connection died, retrying a fresh connect)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 7 (necessary data rewind wasn't possible)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 8 (Closing connection 78)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: 000001A5CDD32400: libcurl info message cache 10 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.08.19-17.09.40:833][134]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B4F5C9-4F98-7F53-982E-E9BF91A7A8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b37871a949075279960689a4c2177775%7Ca87e78dc35ac476499854c476427187a%7Ccf5ac8e4-2f28-4ee8-b08b-a9eab62a8521&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2024.08.19-17.12.15:927][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.08.19-17.12.15:950][596]LogSavePackage: Moving '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/TutorialLv_Auto748D1546C4EE4C28514335C90B9CC7D5E.tmp' to '../../../../../../Users/Max/Documents/Unreal Projects/gmtk24/GMTKJam2024/GMTK2024/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv_Auto7.umap'
+[2024.08.19-17.12.15:952][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Maxi/TutorialLv' took 0.037
+[2024.08.19-17.12.15:952][596]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.037
+[2024.08.19-17.14.10:607][247]LogSlate: Window 'grow_cube_Box001' being destroyed
+[2024.08.19-17.14.10:616][247]LogSlate: Window 'grow_cube_Box001' being destroyed
+[2024.08.19-17.14.10:650][247]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.08.19-17.14.10:650][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-17.14.10:940][247]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.08.19-17.14.10:940][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.19-17.14.10:986][247]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.08.19-17.14.10:986][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
