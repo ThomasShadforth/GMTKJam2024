@@ -8,6 +8,7 @@
 
 class USpringArmComponent;
 class UCameraComponent;
+class AGMTKJam_LevelCameraSystem;
 
 UCLASS()
 class GMTK2024_API AGMTKJ_Player : public ACharacter
@@ -39,6 +40,18 @@ protected:
 	void StartJump();
 
 	void StopJump();
+
+	void ChangeCameraLeft();
+
+	void ChangeCameraRight();
+
+	void GrabOrDropObject();
+
+	void GrabObject();
+
+	void DropObject();
+
+	void UseObject();
 	
 public:	
 	// Called every frame
@@ -54,6 +67,12 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* camera;
+
+	AGMTKJam_LevelCameraSystem* levelCamera;
+
+	bool bIsHoldingObject;
+
+	AActor* heldObject;
 	
 public:
 	

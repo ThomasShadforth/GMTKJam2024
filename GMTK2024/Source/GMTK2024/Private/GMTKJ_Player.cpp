@@ -3,9 +3,14 @@
 
 #include "GMTKJ_Player.h"
 
+#include "GMTKJam_LevelCameraSystem.h"
+#include "GMTKJam_PickupBase.h"
+#include "GrabObjectInterface.h"
 #include "Camera/CameraComponent.h"
+#include "Engine/SkeletalMeshSocket.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AGMTKJ_Player::AGMTKJ_Player()
@@ -36,6 +41,8 @@ AGMTKJ_Player::AGMTKJ_Player()
 void AGMTKJ_Player::BeginPlay()
 {
 	Super::BeginPlay();
+
+	levelCamera = Cast<AGMTKJam_LevelCameraSystem>(UGameplayStatics::GetActorOfClass(this, AGMTKJam_LevelCameraSystem::StaticClass()));
 	
 }
 
@@ -74,10 +81,124 @@ void AGMTKJ_Player::LookUpAtRate(float Rate)
 
 void AGMTKJ_Player::StartJump()
 {
+	ACharacter::Jump();
 }
 
 void AGMTKJ_Player::StopJump()
 {
+	ACharacter::StopJumping();
+}
+
+void AGMTKJ_Player::ChangeCameraLeft()
+{
+	if(levelCamera == nullptr) return;
+
+	levelCamera->ChangeCameraLeft();
+}
+
+void AGMTKJ_Player::ChangeCameraRight()
+{
+	if(levelCamera == nullptr) return;
+
+	levelCamera->ChangeCameraRight();
+}
+
+void AGMTKJ_Player::GrabOrDropObject()
+{
+	if(bIsHoldingObject)
+	{
+		DropObject();
+	} else
+	{
+		GrabObject();
+	}
+}
+
+void AGMTKJ_Player::GrabObject()
+{
+	UE_LOG(LogTemp, Warning, TEXT("STARTING GRAB"));
+	
+	//Draw shape trace to check for object
+	TArray<FHitResult> hitObjects;
+	FVector traceStart = GetActorLocation() + (GetActorForwardVector() * 80.f);
+	FVector traceEnd = traceStart + FVector(0,0, -100.f);
+	TArray<AActor*> ignoredActors;
+	ignoredActors.Add(this);
+	
+	UKismetSystemLibrary::SphereTraceMulti(this, traceStart, traceEnd, 40.f, TraceTypeQuery1, false, ignoredActors,
+		EDrawDebugTrace::ForDuration, hitObjects, true);
+
+	if(hitObjects.Num() != 0)
+	{
+		for (auto hitObject : hitObjects)
+		{
+			if(UKismetSystemLibrary::DoesImplementInterface(hitObject.GetActor(), UGrabObjectInterface::StaticClass()))
+			{
+				//Break the loop, grab the object
+				const USkeletalMeshSocket* handSocket = GetMesh()->GetSocketByName(FName("grabHandSocket"));
+
+				if(handSocket)
+				{
+					heldObject = hitObject.GetActor();
+					FAttachmentTransformRules attachmentRules(EAttachmentRule::SnapToTarget, EAttachmentRule::KeepWorld, EAttachmentRule::KeepWorld, true);
+					heldObject->AttachToComponent(GetMesh(), attachmentRules, FName("grabHandSocket"));
+					
+					IGrabObjectInterface::Execute_GrabObject(heldObject);
+					bIsHoldingObject = true;
+					break;
+				}
+			}
+		}
+	}
+	
+}
+
+void AGMTKJ_Player::DropObject()
+{
+	//
+	if(heldObject == nullptr) return;
+
+	if(UKismetSystemLibrary::DoesImplementInterface(heldObject, UGrabObjectInterface::StaticClass())){
+	
+		const USkeletalMeshSocket* handSocket = GetMesh()->GetSocketByName(FName("grabHandSocket"));
+
+		if(handSocket)
+		{
+			FDetachmentTransformRules detachmentRules(EDetachmentRule::KeepWorld, true);
+			UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(heldObject->GetComponentByClass(UStaticMeshComponent::StaticClass()));
+
+			if(mesh)
+			{
+				mesh->DetachFromComponent(detachmentRules);
+			}
+			heldObject->SetActorLocation(handSocket->GetSocketLocation(GetMesh()) + GetActorForwardVector() * 20.f);
+			IGrabObjectInterface::Execute_DropObject(heldObject);
+			heldObject = nullptr;
+			bIsHoldingObject = false;
+		}
+		
+	}
+}
+
+void AGMTKJ_Player::UseObject()
+{
+	if(heldObject == nullptr) return;
+
+	UE_LOG(LogTemp, Warning, TEXT("USING HELD OBJECT"));
+
+	//Check for base pickup class
+	AGMTKJam_PickupBase* pickupObject = Cast<AGMTKJam_PickupBase>(heldObject);
+
+	if(pickupObject)
+	{
+		pickupObject->UsePickupObject(this);
+		pickupObject->Destroy();
+		heldObject = nullptr;
+		bIsHoldingObject = false;
+	} else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("NOT A USABLE OBJECT!"));
+	}
 }
 
 // Called every frame
@@ -103,6 +224,13 @@ void AGMTKJ_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AGMTKJ_Player::StartJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AGMTKJ_Player::StopJump);
+
+	PlayerInputComponent->BindAction("ChangeLevelCameraRight", IE_Pressed, this, &AGMTKJ_Player::ChangeCameraRight);
+	PlayerInputComponent->BindAction("ChangeLevelCameraLeft", IE_Pressed, this, &AGMTKJ_Player::ChangeCameraLeft);
+
+	PlayerInputComponent->BindAction("Grab", IE_Pressed, this, &AGMTKJ_Player::GrabOrDropObject);
+
+	PlayerInputComponent->BindAction("UseObject", IE_Pressed, this, &AGMTKJ_Player::UseObject);
 	
 }
 

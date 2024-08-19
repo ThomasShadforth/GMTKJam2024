@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GMTK2024.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6A7AB98E-CBCC-4397-A37E-6BF531D67A36}</UniqueIdentifier>
+      <UniqueIdentifier>{8C1DFFEE-35AF-462C-A96E-D21729975EC9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GMTK2024.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{430AE92D-FB0A-436F-96DE-9D73FAC107AC}</UniqueIdentifier>
+      <UniqueIdentifier>{02E02799-A2FC-499F-9719-A4B9043F6B6C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GMTK2024">
-      <UniqueIdentifier>{F724159C-313A-454D-BFEF-EC8C28DD4ECE}</UniqueIdentifier>
+      <UniqueIdentifier>{F933A393-83F7-4F56-919C-DBB9C1E6382D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GMTK2024\GMTK2024.Build.cs">
       <Filter>Source\GMTK2024</Filter>
@@ -54,21 +54,39 @@
       <Filter>Source\GMTK2024</Filter>
     </ClInclude>
     <Filter Include="Source\GMTK2024\Private">
-      <UniqueIdentifier>{72E1C062-362A-4BBE-8A9F-E1B284D43D78}</UniqueIdentifier>
+      <UniqueIdentifier>{415648FE-6F60-4E54-8F56-E9F78DB65A70}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GMTK2024\Private\GMTKJam_LevelCameraSystem.cpp">
+      <Filter>Source\GMTK2024\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GMTK2024\Private\GMTKJam_PickupBase.cpp">
+      <Filter>Source\GMTK2024\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GMTK2024\Private\GMTKJam_PlayerController.cpp">
       <Filter>Source\GMTK2024\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GMTK2024\Private\GMTKJ_Player.cpp">
       <Filter>Source\GMTK2024\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GMTK2024\Private\GrabObjectInterface.cpp">
+      <Filter>Source\GMTK2024\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GMTK2024\Public">
-      <UniqueIdentifier>{7EFC5405-B238-411C-B235-C90443E2EAA2}</UniqueIdentifier>
+      <UniqueIdentifier>{4F14F2BE-2F00-4CF9-A0B9-E135834F6EE4}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\GMTK2024\Public\GMTKJam_LevelCameraSystem.h">
+      <Filter>Source\GMTK2024\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GMTK2024\Public\GMTKJam_PickupBase.h">
+      <Filter>Source\GMTK2024\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GMTK2024\Public\GMTKJam_PlayerController.h">
       <Filter>Source\GMTK2024\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GMTK2024\Public\GMTKJ_Player.h">
+      <Filter>Source\GMTK2024\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GMTK2024\Public\GrabObjectInterface.h">
       <Filter>Source\GMTK2024\Public</Filter>
     </ClInclude>
   </ItemGroup>

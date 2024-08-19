@@ -5,8 +5,16 @@ D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Cla
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GMTKJ_Player.generated.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public\GMTKJam_LevelCameraSystem.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GMTKJam_LevelCameraSystem.generated.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public\GMTKJam_PickupBase.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public\GrabObjectInterface.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GrabObjectInterface.generated.h
+D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GMTKJam_PickupBase.generated.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMeshSocket.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSocket.generated.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
@@ -25,3 +33,14 @@ D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Program Files (x86)\Epic Games\Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

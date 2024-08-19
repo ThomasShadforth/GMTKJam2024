@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GMTK2024_GMTKJ_Player_generated_h
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_SPARSE_DATA
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_RPC_WRAPPERS
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_INCLASS_NO_PURE_DECLS \
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_SPARSE_DATA
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_RPC_WRAPPERS
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGMTKJ_Player(); \
 	friend struct Z_Construct_UClass_AGMTKJ_Player_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AGMTKJ_Player)
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_INCLASS \
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAGMTKJ_Player(); \
 	friend struct Z_Construct_UClass_AGMTKJ_Player_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AGMTKJ_Player)
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_STANDARD_CONSTRUCTORS \
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGMTKJ_Player(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGMTKJ_Player) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_ENHANCED_CONSTRUCTORS \
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGMTKJ_Player(AGMTKJ_Player&&); \
@@ -58,32 +58,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGMTKJ_Player); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGMTKJ_Player)
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_PRIVATE_PROPERTY_OFFSET \
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__cameraBoom() { return STRUCT_OFFSET(AGMTKJ_Player, cameraBoom); } \
 	FORCEINLINE static uint32 __PPO__camera() { return STRUCT_OFFSET(AGMTKJ_Player, camera); }
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_12_PROLOG
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_GENERATED_BODY_LEGACY \
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_13_PROLOG
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_PRIVATE_PROPERTY_OFFSET \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_SPARSE_DATA \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_RPC_WRAPPERS \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_INCLASS \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_STANDARD_CONSTRUCTORS \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_PRIVATE_PROPERTY_OFFSET \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_SPARSE_DATA \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_RPC_WRAPPERS \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_INCLASS \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_GENERATED_BODY \
+#define GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_PRIVATE_PROPERTY_OFFSET \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_SPARSE_DATA \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_INCLASS_NO_PURE_DECLS \
-	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_15_ENHANCED_CONSTRUCTORS \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_PRIVATE_PROPERTY_OFFSET \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_SPARSE_DATA \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_INCLASS_NO_PURE_DECLS \
+	GMTK2024_Source_GMTK2024_Public_GMTKJ_Player_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
