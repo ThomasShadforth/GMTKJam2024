@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGMTKJam_PlayerController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGMTKJam_PlayerController)
 
 
-#define GMTK2024_Source_GMTK2024_Public_GMTKJam_PlayerController_h_15_PRIVATE_PROPERTY_OFFSET
+#define GMTK2024_Source_GMTK2024_Public_GMTKJam_PlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__pauseScreenClass() { return STRUCT_OFFSET(AGMTKJam_PlayerController, pauseScreenClass); }
+
+
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PlayerController_h_12_PROLOG
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_PlayerController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

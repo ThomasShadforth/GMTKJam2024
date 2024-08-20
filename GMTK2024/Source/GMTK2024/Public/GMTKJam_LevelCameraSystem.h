@@ -39,6 +39,9 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 	UCameraComponent* levelCamera_3;
 
+	UPROPERTY(EditDefaultsOnly)
+	UCameraComponent* levelCamera_4;
+	
 	TArray<UCameraComponent*> levelCameras;
 
 	int cameraIndex;

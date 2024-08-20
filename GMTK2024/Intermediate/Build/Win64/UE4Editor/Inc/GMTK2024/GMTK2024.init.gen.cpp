@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTK2024_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xFB57520C,
+				0xF444CD8A,
 				0x632DAE1F,
 				METADATA_PARAMS(nullptr, 0)
 			};

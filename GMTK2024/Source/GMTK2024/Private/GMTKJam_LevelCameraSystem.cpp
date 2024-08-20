@@ -23,6 +23,9 @@ cameraIndex(0)
 
 	levelCamera_3 = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera 3"));
 	levelCamera_3->SetupAttachment(RootComponent);
+
+	levelCamera_4 = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera 4"));
+	levelCamera_4->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -48,10 +51,12 @@ void AGMTKJam_LevelCameraSystem::InitializeCameraArray()
 	levelCameras.Add(levelCamera_1);
 	levelCameras.Add(levelCamera_2);
 	levelCameras.Add(levelCamera_3);
-
+	levelCameras.Add(levelCamera_4);
+	
 	levelCamera_1->Activate();
 	levelCamera_2->Deactivate();
 	levelCamera_3->Deactivate();
+	levelCamera_4->Deactivate();
 }
 
 void AGMTKJam_LevelCameraSystem::GetPlayerController()

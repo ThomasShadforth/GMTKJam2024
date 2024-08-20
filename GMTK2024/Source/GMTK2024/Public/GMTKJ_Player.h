@@ -58,6 +58,8 @@ protected:
 	void GrowShrinkLevelObject(AActor* levelObject, bool bShouldGrow);
 
 	AActor* GetLevelObject();
+
+	void PauseGame();
 	
 public:	
 	// Called every frame

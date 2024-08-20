@@ -16,15 +16,19 @@ class GMTK2024_API AGMTKJam_PlayerController : public APlayerController
 
 public:
 	AGMTKJam_PlayerController();
-
 	
 	
 protected:
 
-	
+	virtual void BeginPlay() override;
 	
 private:
 
-public:
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UUserWidget> pauseScreenClass;
+
+	UUserWidget* pauseScreen;
 	
+public:
+	void PauseGame();
 };

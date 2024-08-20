@@ -5,6 +5,7 @@
 
 #include "GMTKJam_LevelCameraSystem.h"
 #include "GMTKJam_PickupBase.h"
+#include "GMTKJam_PlayerController.h"
 #include "GrabObjectInterface.h"
 #include "GrowShrinkInterface.h"
 #include "Camera/CameraComponent.h"
@@ -265,6 +266,10 @@ void AGMTKJ_Player::GrowShrinkPlayer(bool bShouldGrow)
 void AGMTKJ_Player::GrowShrinkLevelObject(AActor* levelObject, bool bShouldGrow)
 {
 	IGrowShrinkInterface::Execute_GrowShrinkObject(levelObject, bShouldGrow);
+
+	heldObject->Destroy();
+	heldObject = nullptr;
+	bIsHoldingObject = false;
 }
 
 AActor* AGMTKJ_Player::GetLevelObject()
@@ -285,6 +290,17 @@ AActor* AGMTKJ_Player::GetLevelObject()
 	}
 	
 	return nullptr;
+}
+
+void AGMTKJ_Player::PauseGame()
+{
+	AGMTKJam_PlayerController* pc = Cast<AGMTKJam_PlayerController>(GetController());
+
+	if(pc)
+	{
+		pc->PauseGame();
+		
+	}
 }
 
 // Called every frame
@@ -317,6 +333,8 @@ void AGMTKJ_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	PlayerInputComponent->BindAction("Grab", IE_Pressed, this, &AGMTKJ_Player::GrabOrDropObject);
 
 	PlayerInputComponent->BindAction("UseObject", IE_Pressed, this, &AGMTKJ_Player::UseObject);
+
+	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &AGMTKJ_Player::PauseGame);
 	
 }
 

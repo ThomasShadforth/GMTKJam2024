@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGMTKJam_LevelCameraSystem); \
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_LevelCameraSystem_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__levelCamera_1() { return STRUCT_OFFSET(AGMTKJam_LevelCameraSystem, levelCamera_1); } \
 	FORCEINLINE static uint32 __PPO__levelCamera_2() { return STRUCT_OFFSET(AGMTKJam_LevelCameraSystem, levelCamera_2); } \
-	FORCEINLINE static uint32 __PPO__levelCamera_3() { return STRUCT_OFFSET(AGMTKJam_LevelCameraSystem, levelCamera_3); }
+	FORCEINLINE static uint32 __PPO__levelCamera_3() { return STRUCT_OFFSET(AGMTKJam_LevelCameraSystem, levelCamera_3); } \
+	FORCEINLINE static uint32 __PPO__levelCamera_4() { return STRUCT_OFFSET(AGMTKJam_LevelCameraSystem, levelCamera_4); }
 
 
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_LevelCameraSystem_h_12_PROLOG

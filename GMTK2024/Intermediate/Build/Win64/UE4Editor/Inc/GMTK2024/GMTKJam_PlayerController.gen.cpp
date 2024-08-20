@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PlayerController() {}
 	GMTK2024_API UClass* Z_Construct_UClass_AGMTKJam_PlayerController();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_GMTK2024();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 // End Cross Module References
 	void AGMTKJam_PlayerController::StaticRegisterNativesAGMTKJam_PlayerController()
 	{
@@ -31,6 +33,11 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PlayerController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pauseScreenClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_pauseScreenClass;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +53,16 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PlayerController() {}
 		{ "ModuleRelativePath", "Public/GMTKJam_PlayerController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_PlayerController_Statics::NewProp_pauseScreenClass_MetaData[] = {
+		{ "Category", "GMTKJam_PlayerController" },
+		{ "ModuleRelativePath", "Public/GMTKJam_PlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AGMTKJam_PlayerController_Statics::NewProp_pauseScreenClass = { "pauseScreenClass", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJam_PlayerController, pauseScreenClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_PlayerController_Statics::NewProp_pauseScreenClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_PlayerController_Statics::NewProp_pauseScreenClass_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGMTKJam_PlayerController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_PlayerController_Statics::NewProp_pauseScreenClass,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGMTKJam_PlayerController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGMTKJam_PlayerController>::IsAbstract,
 	};
@@ -55,11 +72,11 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PlayerController() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AGMTKJam_PlayerController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_PlayerController_Statics::PropPointers),
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_PlayerController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_PlayerController_Statics::Class_MetaDataParams))
@@ -73,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_PlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGMTKJam_PlayerController, 2201527450);
+	IMPLEMENT_CLASS(AGMTKJam_PlayerController, 2910293178);
 	template<> GMTK2024_API UClass* StaticClass<AGMTKJam_PlayerController>()
 	{
 		return AGMTKJam_PlayerController::StaticClass();

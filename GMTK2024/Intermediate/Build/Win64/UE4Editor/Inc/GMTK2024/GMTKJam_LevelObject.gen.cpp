@@ -34,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelObject() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sizeTierIndex_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_sizeTierIndex;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sizeTiers_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_sizeTiers;
@@ -54,6 +58,13 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelObject() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTierIndex_MetaData[] = {
+		{ "Category", "GMTKJam_LevelObject" },
+		{ "ModuleRelativePath", "Public/GMTKJam_LevelObject.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTierIndex = { "sizeTierIndex", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJam_LevelObject, sizeTierIndex), METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTierIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTierIndex_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTiers_MetaData[] = {
 		{ "Category", "GMTKJam_LevelObject" },
 		{ "Comment", "//To do: add size tiers for object, and index\n" },
@@ -64,6 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelObject() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTiers = { "sizeTiers", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJam_LevelObject, sizeTiers), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTiers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTiers_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTiers_Inner = { "sizeTiers", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGMTKJam_LevelObject_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTierIndex,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTiers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_LevelObject_Statics::NewProp_sizeTiers_Inner,
 	};
@@ -97,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelObject() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGMTKJam_LevelObject, 3676092441);
+	IMPLEMENT_CLASS(AGMTKJam_LevelObject, 4175740069);
 	template<> GMTK2024_API UClass* StaticClass<AGMTKJam_LevelObject>()
 	{
 		return AGMTKJam_LevelObject::StaticClass();

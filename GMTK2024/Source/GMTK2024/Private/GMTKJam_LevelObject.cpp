@@ -16,7 +16,13 @@ sizeTierIndex(2)
 void AGMTKJam_LevelObject::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	SetDefaultSize();
+}
+
+void AGMTKJam_LevelObject::SetDefaultSize()
+{
+	SetActorScale3D(sizeTiers[sizeTierIndex]);
 }
 
 // Called every frame

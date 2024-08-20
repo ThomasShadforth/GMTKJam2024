@@ -33,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelCameraSystem() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_levelCamera_4_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_levelCamera_4;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_levelCamera_3_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_levelCamera_3;
@@ -60,6 +64,14 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelCameraSystem() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_4_MetaData[] = {
+		{ "Category", "GMTKJam_LevelCameraSystem" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/GMTKJam_LevelCameraSystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_4 = { "levelCamera_4", nullptr, (EPropertyFlags)0x0040000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJam_LevelCameraSystem, levelCamera_4), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_4_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_4_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_3_MetaData[] = {
 		{ "Category", "GMTKJam_LevelCameraSystem" },
 		{ "EditInline", "true" },
@@ -84,6 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelCameraSystem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_1 = { "levelCamera_1", nullptr, (EPropertyFlags)0x0040000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGMTKJam_LevelCameraSystem, levelCamera_1), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_1_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_4,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_3,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGMTKJam_LevelCameraSystem_Statics::NewProp_levelCamera_1,
@@ -115,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeGMTKJam_LevelCameraSystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGMTKJam_LevelCameraSystem, 327065961);
+	IMPLEMENT_CLASS(AGMTKJam_LevelCameraSystem, 2195964073);
 	template<> GMTK2024_API UClass* StaticClass<AGMTKJam_LevelCameraSystem>()
 	{
 		return AGMTKJam_LevelCameraSystem::StaticClass();

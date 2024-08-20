@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Max\\Documents\\Unreal Projects\\gmtk24\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024\\GMTK2024.Build.cs",
-		"C:\\Users\\Max\\Documents\\Unreal Projects\\gmtk24\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024.Target.cs",
-		"C:\\Users\\Max\\Documents\\Unreal Projects\\gmtk24\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024Editor.Target.cs"
+		"D:\\Unreal Projects\\Github\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024\\GMTK2024.Build.cs",
+		"D:\\Unreal Projects\\Github\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024.Target.cs",
+		"D:\\Unreal Projects\\Github\\GMTKJam2024\\GMTK2024\\Source\\GMTK2024Editor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }

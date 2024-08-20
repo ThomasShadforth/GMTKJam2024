@@ -32,7 +32,7 @@
 /wd4244
 /wd4838
 /I .
-/I "C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Source\GMTK2024\Private"
+/I "D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +231,9 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024"
-/I "C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Source"
-/I "C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Source\GMTK2024\Public"
+/I "D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024"
+/I "D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source"
+/I "D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Source\GMTK2024\Public"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ThirdParty\PhysX3\PxShared\include
@@ -259,18 +259,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\INCLUDE"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt"
-/FI"C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\GMTK2024Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\GMTK2024Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\GMTK2024Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GMTK2024GameMode.gen.cpp"
-/FI"C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Development\GMTK2024\Definitions.GMTK2024.h"
-/Fo"C:\Users\Max\Documents\Unreal Projects\gmtk24\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Development\GMTK2024\GMTK2024GameMode.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\GMTK2024Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\GMTK2024Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\GMTK2024Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Inc\GMTK2024\GMTK2024GameMode.gen.cpp"
+/FI"D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Development\GMTK2024\Definitions.GMTK2024.h"
+/Fo"D:\Unreal Projects\Github\GMTKJam2024\GMTK2024\Intermediate\Build\Win64\UE4Editor\Development\GMTK2024\GMTK2024GameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4

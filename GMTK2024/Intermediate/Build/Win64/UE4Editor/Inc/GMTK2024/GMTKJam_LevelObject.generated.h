@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGMTKJam_LevelObject); \
 
 
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_LevelObject_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__sizeTiers() { return STRUCT_OFFSET(AGMTKJam_LevelObject, sizeTiers); }
+	FORCEINLINE static uint32 __PPO__sizeTiers() { return STRUCT_OFFSET(AGMTKJam_LevelObject, sizeTiers); } \
+	FORCEINLINE static uint32 __PPO__sizeTierIndex() { return STRUCT_OFFSET(AGMTKJam_LevelObject, sizeTierIndex); }
 
 
 #define GMTK2024_Source_GMTK2024_Public_GMTKJam_LevelObject_h_10_PROLOG

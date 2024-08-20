@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GMTK2024.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1BF72116-E612-4A38-B24E-C636486FA5F0}</UniqueIdentifier>
+      <UniqueIdentifier>{B9986679-B5ED-4CF7-8A0C-EA9D5F725E42}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GMTK2024.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9D45317A-E596-4DF7-8CC3-E4F39B29D400}</UniqueIdentifier>
+      <UniqueIdentifier>{126135B2-1E50-4882-A493-138F6180B72B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GMTK2024">
-      <UniqueIdentifier>{C759E7AF-5AB6-489E-B30A-DED070541425}</UniqueIdentifier>
+      <UniqueIdentifier>{887D6040-3BE2-43C2-8446-7C81A4B9BED7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GMTK2024\GMTK2024.Build.cs">
       <Filter>Source\GMTK2024</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\GMTK2024</Filter>
     </ClInclude>
     <Filter Include="Source\GMTK2024\Private">
-      <UniqueIdentifier>{4AAE7C75-A316-45B0-B683-711A444842C1}</UniqueIdentifier>
+      <UniqueIdentifier>{72872252-9686-4BF4-970A-2A1EE93390DA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GMTK2024\Private\GMTKJam_LevelCameraSystem.cpp">
       <Filter>Source\GMTK2024\Private</Filter>
@@ -81,7 +81,7 @@
       <Filter>Source\GMTK2024\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GMTK2024\Public">
-      <UniqueIdentifier>{F87BE2A6-782A-41F4-9C22-3E8EF7390C3A}</UniqueIdentifier>
+      <UniqueIdentifier>{B96C8990-36E9-4636-A81C-B3D0A9729BBE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GMTK2024\Public\GMTKJam_LevelCameraSystem.h">
       <Filter>Source\GMTK2024\Public</Filter>

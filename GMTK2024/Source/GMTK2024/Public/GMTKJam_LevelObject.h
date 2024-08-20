@@ -20,12 +20,15 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	void SetDefaultSize();
+	
 private:
 
 	//To do: add size tiers for object, and index
 	UPROPERTY(EditDefaultsOnly)
 	TArray<FVector> sizeTiers;
 
+	UPROPERTY(EditAnywhere)
 	int sizeTierIndex;
 	
 public:	
